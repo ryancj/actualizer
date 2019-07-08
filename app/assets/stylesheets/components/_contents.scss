@@ -1,0 +1,66 @@
+@import '../global_variables';
+
+.contents {
+  position: relative;
+  background: url('clients_bg.jpg') no-repeat center center;
+  padding: 5rem 0;
+}
+
+.contents:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  // background: $hero-bg-overlay;
+}
+
+.contents-1 {
+  background: #FFF;
+}
+
+.contents-1-content {
+  text-align: center;
+
+  h2 {
+    color: #000;
+    margin-bottom: 1.5rem;
+    line-height: 1.63;
+  }
+  p {
+    color: #7e8085;
+    padding: 0 15rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    line-height: 1.63;
+  }
+  div {
+    h3 {
+      font-size: 3rem;
+      color: $brand-primary;
+      font-weight: 700;
+    }
+  }
+}
+
+.contents-2-content {
+  text-align: left;
+
+  h2 {
+    color: #000;
+    margin-bottom: 1.5rem;
+    line-height: 1.63;
+  }
+  p {
+    color: #7e8085;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    line-height: 1.63;
+  }
+  div {
+    h3 {
+      font-size: 3rem;
+      color: $brand-primary;
+      font-weight: 700;
+    }
+  }
+}

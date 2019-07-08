@@ -1,0 +1,50 @@
+@import '../global_variables';
+
+.clients {
+  position: relative;
+  background: url('clients_bg.jpg') no-repeat center center;
+  padding: 3rem 0;
+}
+
+.clients-2 {
+  background: #FFF;
+  padding: 5rem 0
+}
+
+.clients:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  // background: $hero-bg-overlay;
+}
+
+.clients-1-content {
+  text-align: center;
+  color: #FFF;
+
+  h5 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+}
+
+.clients-2-content {
+  text-align: center;
+  color: #FFF;
+
+  h2 {
+    color: $brand-primary;
+    margin-bottom: 1.5rem;
+  }
+  p {
+    color: #7e8085;
+    padding: 0 10rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    line-height: 1.63;
+  }
+  div {
+    margin-bottom: 2rem;
+  }
+}

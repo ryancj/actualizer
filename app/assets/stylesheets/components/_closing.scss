@@ -1,0 +1,56 @@
+@import '../global_variables';
+
+.closing {
+  position: relative;
+  background: url('hero.jpg') no-repeat center center;
+}
+
+.closing:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  // background: $hero-bg-overlay;
+}
+
+.closing-1 {
+  background: #FFF;
+  padding: 4rem 16rem;
+}
+
+.closing-1 {
+  padding: 4rem 16rem;
+}
+
+.closing-2 {
+  padding: 4.5rem 0;
+  padding-right: 30rem;
+}
+
+.closing-1-content {
+  h2 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+  }
+  p {
+    opacity: 0.8;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    line-height: 1.63;
+  }
+}
+
+.closing-2-content {
+  h2 {
+    color: #FFF;
+    font-size: 36px;
+    margin-bottom: 2rem;
+  }
+  p {
+    opacity: 0.8;
+    color: #FFF;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    line-height: 1.63;
+  }
+}

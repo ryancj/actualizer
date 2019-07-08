@@ -1,0 +1,48 @@
+@import '../global_variables';
+
+.hero {
+  position: relative;
+  background: url('hero.jpg') no-repeat center center;
+}
+
+.hero:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  // background: $hero-bg-overlay;
+}
+
+.hero-1 {
+  padding: 8rem 16rem;
+}
+
+.hero-2 {
+  padding: 8rem;
+}
+
+.hero-1-content {
+  h1 {
+    font-size: 64px;
+    margin-bottom: 2rem;
+  }
+  p {
+    opacity: 0.8;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    line-height: 1.63;
+  }
+}
+
+.hero-2-content {
+  h1 {
+    font-size: 56px;
+    margin-bottom: 2rem;
+  }
+  p {
+    opacity: 0.8;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    line-height: 1.63;
+  }
+}

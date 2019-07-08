@@ -14,5 +14,13 @@
  *= require_self
  */
 
+@import 'bootstrap/scss/bootstrap';
+@import 'components/*';
 @import 'global_variables';
-@import "bootstrap/scss/bootstrap";
+
+// This app only styling
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #E8EDEF;
+  padding: 3em 0;
+}
