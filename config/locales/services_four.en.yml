@@ -1,0 +1,10 @@
+en:
+  services_two:
+    header: "header"
+    service_one_header: "service one header"
+    service_one_content: "service one content"
+    service_two_header: "service two header"
+    service_two_content: "service two content"
+    service_three_header: "service three header"
+    service_three_content: "service three content"
+    cta: "work with us"
