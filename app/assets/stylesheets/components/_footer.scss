@@ -4,6 +4,10 @@
   position: relative;
   background: url('clients_bg.jpg') no-repeat center center;
   padding: 3rem 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .footer:before {

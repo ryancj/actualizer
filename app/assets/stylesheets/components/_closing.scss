@@ -3,6 +3,10 @@
 .closing {
   position: relative;
   background: url('hero.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .closing:before {
@@ -24,7 +28,6 @@
 
 .closing-2 {
   padding: 4.5rem 0;
-  padding-right: 30rem;
 }
 
 .closing-1-content {
