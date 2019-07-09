@@ -1,5 +1,7 @@
-en:
+---
+:en:
   hero_one:
+<<<<<<< HEAD
     header: "Professional Technicians With Years Of Experience, Ready to Help "
     sub_header: "1st Call Plumbing & Heating is a locally owned and operated company, we have been serving Richmond and Vancouver since 1994.
 
@@ -9,3 +11,9 @@ en:
 
     cta: "Contact Us"
     background_image: "https://images.unsplash.com/photo-1542013936693-884638332954?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+=======
+    header: qewrqwer
+    sub_header: qwerqwer
+    cta: qwereqwr
+    background_image: ''
+>>>>>>> 4f49e67a6a583986b2e12b7782e16ff6b475a682

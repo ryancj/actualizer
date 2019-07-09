@@ -1,0 +1,31 @@
+<div class="testimonials testimonials-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <div class="testimonials-1-content">
+          <div class="row">
+            <div class="col-xl-12">
+              <h2><%= get_content("#{component}.header") %></h2>
+            </div>
+          </div>
+          <div class="row d-flex align-items-center">
+            <div class="col-xl-6">
+              <h3>
+                <%= get_content("#{component}.testimonial_one") %>
+              </h3>
+              <span>
+                <strong><%= get_content("#{component}.testimonial_one_author") %></strong>,
+                <%= get_content("#{component}.testimonial_one_company") %>
+              </span>
+            </div>
+            <div class="col-xl-6 text-right">
+              <%#= image_tag get_content("#{component}.image_one"), class: "img-responsive" %>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
