@@ -9,19 +9,9 @@
 
 // Links
 .nav-link {
-  margin-right: 1.2rem;
-  font-weight: 500;
-  padding-top: 0.7rem;
-}
-
-// CTA
-.btn-primary {
-  padding: 0.6rem 1.8rem 0.5rem;
-  background-color: #134DAB;
-  border-color: #134DAB;
-}
-.nav-cta {
-  margin-left: 0.3rem;
+  margin-right: $nav-link-margin-right;
+  font-weight: $nav-link-font-weight;
+  padding-top: $nav-link-padding-top;
 }
 
 // Responsiveness
