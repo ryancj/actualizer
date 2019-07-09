@@ -1,16 +1,18 @@
+
+
 /* Actualizer Global Variables */
 /******************************************************************************/
 
 // Primary Color
 //#134DAB; Default color
-$brand-primary: red;
-$brand-primary-darkened: #20a43e;
+$brand-primary: #134DAB;
+$brand-primary-darkened: #134DAB;
 
 // Button
 $cta-background-color: $brand-primary;
 $cta-hover-color: $brand-primary-darkened;
 $cta-padding: 0.6rem 1.8rem 0.5rem;
-$cta-border-radius: 4px;
+$cta-border-radius: 50px;
 $cta-border-width: 2px;
 $cta-left-margin: 0.5rem;
 
