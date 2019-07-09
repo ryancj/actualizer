@@ -1,4 +1,4 @@
 class StaticController < ApplicationController
   def index; end
-  def test; end
+  def layouts; end
 end
