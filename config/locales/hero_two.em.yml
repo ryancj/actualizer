@@ -1,6 +1,11 @@
 en:
   hero_two:
-    header: "Are you a small business owner? Professeional? Self employed?"
-    sub_header: "We are here to help you. Let us save time and money for you so you can enjoy life."
+    header: "Hirji, Lum & Orr is an established full service accounting firm in the Vancouver area and offers a wide range of services to our clients."
+    sub_header: "We have large firm experience and provide personalized client services that you expect from a smaller firm.
+
+    We have many clients who have been with our firm since inception and who constantly refer their friends and business associates.
+
+    Our clients are mainly small businesses with a particular emphasis on professionals, especially those in the medical and dental professions. We are involved with setting up tax efficient structures for their businesses often involving the use of family trusts and holding companies."
+    
     cta: "work with us"
     background_image: "background iamge"
