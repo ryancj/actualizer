@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   resources :components
   get "/test" => "static#test"
+  
 end
