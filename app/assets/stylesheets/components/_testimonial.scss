@@ -1,5 +1,6 @@
 @import '../global_variables';
 
+// Testimonials Container
 .testimonials {
   position: relative;
   background: url('clients_bg.jpg') no-repeat center center;
@@ -9,30 +10,19 @@
   -o-background-size: cover;
   background-size: cover;
 }
-
 .testimonials:before {
   content: "";
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
-  // background: $hero-bg-overlay;
+  background: rgba(0,0,0,0);
 }
 
+// Testimonial 1 Specific
 .testimonials-1 {
   background: #FFF;
   padding: 4rem 0;
 }
-
-.testimonials-2 {
-  background: #FFF;
-  padding: 4rem 0;
-}
-
-.testimonials-3 {
-  background: #000;
-  padding: 5rem 0;
-}
-
 .testimonials-1-content {
   text-align: left;
 
@@ -50,8 +40,40 @@
   strong {
     font-weight: 600;
   }
+  .testimonials-1-image {
+    text-align: right;
+  }
+}
+@media(max-width: 991px) {
+  .testimonials-1 {
+    padding: 2rem 0 3rem;
+  }
+  .testimonials-1-content {
+    text-align: center;
+
+    h2 {
+      font-size: 36px;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 1.7;
+    }
+    .text-right {
+      text-align: center !important
+    }
+    .testimonials-1-image {
+      margin-top: 2rem;
+    }
+  }
 }
 
+// Testimonial 2 Specific
+.testimonials-2 {
+  background: #FFF;
+  padding: 4rem 0;
+}
 .testimonials-2-content {
   h2 {
     text-align: center;
@@ -72,7 +94,32 @@
     margin-bottom: 0.2rem;
   }
 }
+@media(max-width: 991px) {
+  .testimonials-2 {
+    padding: 2rem 0 3rem;
+  }
+  .testimonials-2-content {
+    h2 {
+      font-size: 36px;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+    }
+  }
+}
+@media(max-width: 767px) {
+  .testi {
+    margin-bottom: 3rem;
+  }
+  .testi.last {
+    margin-bottom: 0
+  }
+}
 
+// Testimonial 3 Specific
+.testimonials-3 {
+  background: #000;
+  padding: 5rem 0;
+}
 .testimonials-3-content {
   h2 {
     font-weight: 400;
@@ -94,5 +141,27 @@
   img {
     margin-right: 1.5rem;
     opacity: 0.5;
+  }
+}
+@media(max-width: 991px) {
+  .testimonials-3 {
+    padding: 2rem 0;
+  }
+  .testimonials-3-content {
+    text-align: center;
+
+    h2 {
+      font-size: 36px;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 1.7;
+    }
+    img {
+      margin-right: 1rem;
+      width: 50px;
+    }
   }
 }

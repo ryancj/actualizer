@@ -18,7 +18,7 @@
 }
 .client-cta {
   display: none;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 // Clients 1 Specific
@@ -52,7 +52,7 @@
 // Clients 2 Specific
 .clients-2 {
   background: #FFF;
-  padding: 5rem 0
+  padding: 4rem 0 5rem;
 }
 .clients-2-content {
   text-align: center;
@@ -74,7 +74,7 @@
 }
 @media(max-width: 991px) {
   .clients-2 {
-    padding: 3.5rem 0;
+    padding: 2rem;
   }
   .clients-2-content {
     h2 {
@@ -86,11 +86,13 @@
     p {
       margin-bottom: 2rem;
     }
-    img {
-      margin-bottom: 2rem;
-    }
-    .last-client {
-      margin-bottom: 0;
-    }
+  }
+}
+@media(max-width: 575px) {
+  .client {
+    margin-bottom: 2rem;
+  }
+  .last-client {
+    margin-bottom: 0;
   }
 }
