@@ -1,0 +1,40 @@
+<div class="features features-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <div class="features-3-content">
+          <h2>
+            <%= get_content("#{component}.header") %>
+          </h2>
+          <div class="row d-flex align-items-center">
+            <div class="col-xl-4">
+              <%= image_tag get_content("#{component}.image") %>
+            </div>
+            <div class="col-xl-4">
+              <h6><%= get_content("#{component}.service_one_header") %></h6>
+              <p class="feature-top-row">
+                <%= get_content("#{component}.service_one_content") %>
+              </p>
+              <h6><%= get_content("#{component}.service_two_header") %></h6>
+              <p>
+                <%= get_content("#{component}.service_two_content") %>
+              </p>
+            </div>
+            <div class="col-xl-4">
+              <h6><%= get_content("#{component}.service_three_header") %></h6>
+              <p class="feature-top-row">
+                <%= get_content("#{component}.service_three_content") %>
+              </p>
+              <h6><%= get_content("#{component}.service_four_header") %></h6>
+              <p>
+                <%= get_content("#{component}.service_four_content") %>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

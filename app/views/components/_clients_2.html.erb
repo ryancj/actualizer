@@ -1,0 +1,35 @@
+<div class="clients clients-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <div class="clients-2-content">
+          <h2><%= get_content("#{component}.header") %></h2>
+          <p><%= get_content("#{component}.sub_header") %></p>
+
+          <div class="row d-flex align-items-center">
+            <div class="col-xl-2 offset-xl-1 text-center">
+              <%= image_tag get_content("#{component}.logo_one") %>
+            </div>
+            <div class="col-xl-2 text-center">
+              <%= image_tag get_content("#{component}.logo_two") %>
+            </div>
+            <div class="col-xl-2 text-center">
+              <%= image_tag get_content("#{component}.logo_three") %>
+            </div>
+            <div class="col-xl-2 text-center">
+              <%= image_tag get_content("#{component}.logo_four") %>
+            </div>
+            <div class="col-xl-2 text-center">
+              <%= image_tag get_content("#{component}.logo_five") %>
+            </div>
+          </div>
+          <a href="#">
+            <button type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
