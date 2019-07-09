@@ -26,7 +26,7 @@
   text-align: center;
 
   h2 {
-    color: #000;
+    color: $brand-primary;
     margin-bottom: 1.5rem;
     line-height: 1.63;
   }
@@ -46,7 +46,7 @@
 }
 @media(max-width: 991px) {
   .contents-1 {
-    padding: 3.5rem 0;
+    padding: 2rem 0;
   }
   .contents-1-content {
     h2 {
@@ -74,12 +74,13 @@
 // Contents 2 Specific
 .contents-2 {
   background: #FFF;
+  padding: 6rem 0;
 }
 .contents-2-content {
   text-align: left;
 
   h2 {
-    color: #000;
+    color: $brand-primary;
     margin-bottom: 1.5rem;
     line-height: 1.63;
   }
@@ -99,7 +100,7 @@
 }
 @media(max-width: 991px) {
   .contents-2 {
-    padding: 3rem 0 4rem;
+    padding: 2rem 0;
   }
   .contents-2-content {
     h2 {
