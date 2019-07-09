@@ -2,24 +2,15 @@ en:
   testimonial_two:
     header: "What Our Clients Say"
     image_one: "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
-    testimonial_one: "Honesty and integrity  are the hallmarks of any business, and they fall on the top of the list of criteria that consumers search for when attempting to locate a service provider for home repairs.  
-
-    We have used 1st Call to re&re a Pressure Reducing Valve as well as install a toilet while, and both times, we have found their personnel to be knowledgeable, well-trained, punctual, personable, informative, approachable, and professional.  Their staff were helpful in that they provided some very useful advice such as what one might expect post work being completed without our asking, which is a rarity...i.e., such a that our water may be discoloured post the work being completed; or you may hear some noises from taps when using them as there will be air pockets that need to work themselves through the system.  As well, experiential advice was offered, such as, we need to ensure we turn the water supply line to the toilets to fully open, and not leave them 1/3, 1/4, or 1/2 open, to avoid future issue with the valve.  
-
-    Pricing for their jobs are fair, as their labour rates are one of the more competitive in the market, and their rates for parts, although I found them to be on the higher side in terms of margins for one part, seem to be the industry standard for the most part.  
-
-    The most important question after dealing with a service provider is would you call them again and/or recommend them to your family and friends, and, in this case, for 1st Call, it would be a resounding "yes"."
-    testimonial_one_author: "Edward Cheng"
+    testimonial_one: "TEST"
+    testimonial_one_author: "Justin C"
     testimonial_one_company: "Happy Home Owner"
-
     image_two: "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
     testimonial_two: "Good honest guys. Rate per hour was spot on and Glen was our repairman. Gave a rough estimate and final cost was pretty much bang on. They fit me into their tight schedule regardless of how busy they were. Fixed a weeping leak from a poor solder job on a bath tub copper pipe which was leaking into ceiling drywall.  Definitely recommended."
     testimonial_two_author: "Justin C"
     testimonial_two_company: "Happy Home Owner"
-
     image_three: "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
-    testimonial_three: "Affordable and great service! I called in about a leaky faucet and other miscellaneous items. Even though they were super busy, they fit me in to fix my leaky tap (it was urgent). While they were there, they decided to check my other bathroom tap since there was a hunch it might be close to breaking and they were right! On that day, both my faucets got fixed and they came back the next week to fix the other items including installing a new kitchen faucet. All at a reasonable price!
-    Very friendly and helpful. I highly recommend them."
+    testimonial_three: "Affordable and great service! I called in about a leaky faucet and other miscellaneous items. Even though they were super busy, they fit me in to fix my leaky tap (it was urgent). While they were there, they decided to check my other bathroom tap since there was a hunch it might be close to breaking and they were right! On that day, both my faucets got fixed and they came back the next week to fix the other items including installing a new kitchen faucet. All at a reasonable price!"
     testimonial_three_author: "Jessica Chang"
     testimonial_three_company: "Happy Home Owner"
   
