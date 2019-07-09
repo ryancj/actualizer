@@ -1,11 +1,14 @@
-<div class="hero hero-1" style='background: url(<%= get_content("#{component}.background_image") %>) no-repeat center center; background-size: cover; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;'>
+<div class="hero hero-1" style="background: url(<%= get_content("#{component}.background_image") %>) no-repeat center center;
+background-size: cover; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
   <div class="container">
     <div class="row">
       <div class="col-xl-12">
 
-        <div class="hero-1-content text-center text-white">
+        <div class="hero-1-content">
           <h1><%= get_content("#{component}.header") %></h1>
-          <p><%= get_content("#{component}.sub_header") %></p>
+          <p>
+            <%= get_content("#{component}.sub_header") %>
+          </p>
           <a href="#">
             <button type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
           </a>

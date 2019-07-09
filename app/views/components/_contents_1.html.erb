@@ -7,25 +7,27 @@
           <h2>
             <%= get_content("#{component}.header") %>
           </h2>
-          <p><%= get_content("#{component}.sub_header") %></p>
+          <p>
+            <%= get_content("#{component}.sub_header") %>
+          </p>
           <div class="row d-flex align-items-center">
-            <div class="col-xl-4 text-center">
+            <div class="col-xl-4 col-lg-4 col-md-12 metric text-center">
               <h3>
                 <%= get_content("#{component}.counter_one_value") %>
               </h3>
-              <span><%= get_content("#{component}.counter_one_title") %></span>
+              <h6><%= get_content("#{component}.counter_one_title") %></h6>
             </div>
-            <div class="col-xl-4 text-center">
+            <div class="col-xl-4 col-lg-4 col-md-12 metric text-center">
               <h3>
                 <%= get_content("#{component}.counter_two_value") %>
               </h3>
-              <span><%= get_content("#{component}.counter_two_title") %></span>
+              <h6><%= get_content("#{component}.counter_two_title") %></h6>
             </div>
-            <div class="col-xl-4 text-center">
+            <div class="col-xl-4 col-lg-4 col-md-12 metric last text-center">
               <h3>
                 <%= get_content("#{component}.counter_three_value") %>
               </h3>
-              <span><%= get_content("#{component}.counter_three_title") %></span>
+              <h6><%= get_content("#{component}.counter_three_title") %></h6>
             </div>
           </div>
         </div>
