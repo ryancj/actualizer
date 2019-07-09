@@ -1,9 +1,10 @@
 en:
   content_one:
-    header: "We provide exceptional audit, tax and consulting services to diverse client base."
-    sub_header: "JOur primary purpose as an organization is to deliver high quality financial products both in appearance and content. We will continue to be known as the firm where personal attention will never become obsolete. We want to employ people who are extremely satisfied and who go the extra mile for clients. We want a culture of growth, profitability and enthusiasm throughout the firm."
+    header: "We take great pride in our work and are licenced, insured, and bonded. We warranty all labour and materials we supply for a minimum of one year"
 
-    feature_one: "30+ Years of Experience"
+    sub_header: "WE ALWAYS PUT YOU, YOUR COMFORT, AND YOUR SAFETY FIRST. With you and your family in mind, we work hard to ensure that the best plumbing service and care are delivered to you – every time. We follow a tried-and-true process that is consistent so that you know what to expect at every stage."
+
+    feature_one: "15 Years of Experience"
     feature_two: "1200 Clients Served"
-    feature_three: "Convenient Downtown Location"
-    image: "image url"
+    feature_three: "Locally Owned and Operated"
+    image: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
