@@ -23,3 +23,545 @@
     <%= submit_tag "create file" %>
     
 <% end %>
+
+<h1>Hero two</h1>
+
+<%= render partial: "hero_2", locals: { component: "hero_two" } %>
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'hero_two' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "sub_header"  %>
+        <%= f.text_field "sub_header"  %><Br>
+
+        <%= f.label "cta"  %>
+        <%= f.text_field "cta"  %><Br>
+        
+        <%= f.label "background_image"  %>
+        <%= f.file_field "background_image"  %><Br>
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+
+<hr>
+<h1>Client one</h1>
+
+<%= render partial: "clients_1", locals: { component: "company_clients_one" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'company_clients_one' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "logo_one"  %>
+        <%= f.file_field "logo_one"  %><Br>
+
+        <%= f.label "logo_two"  %>
+        <%= f.file_field "logo_two"  %><Br>
+
+        <%= f.label "logo_three"  %>
+        <%= f.file_field "logo_three"  %><Br>
+
+        <%= f.label "logo_four"  %>
+        <%= f.file_field "logo_four"  %><Br>
+
+        <%= f.label "logo_five"  %>
+        <%= f.file_field "logo_five"  %><Br>
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>Client two</h1>
+
+<%= render partial: "clients_2", locals: { component: "company_clients_two" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'company_clients_two' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "logo_one"  %>
+        <%= f.file_field "logo_one"  %><Br>
+
+        <%= f.label "logo_two"  %>
+        <%= f.file_field "logo_two"  %><Br>
+
+        <%= f.label "logo_three"  %>
+        <%= f.file_field "logo_three"  %><Br>
+
+        <%= f.label "logo_four"  %>
+        <%= f.file_field "logo_four"  %><Br>
+
+        <%= f.label "logo_five"  %>
+        <%= f.file_field "logo_five"  %><Br>
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>Content one</h1>
+
+<%= render partial: "contents_1", locals: { component: "content_one" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'content_one' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "sub_header"  %>
+        <%= f.text_field "sub_header" %><Br>
+
+        <%= f.label "counter_one_title" %>
+        <%= f.text_field "counter_one_title" %><Br>
+
+        <%= f.label "counter_one_value"  %>
+        <%= f.number_field "counter_one_value" %><Br>
+
+        <%= f.label "counter_two_title" %>
+        <%= f.text_field "counter_two_title" %><Br>
+
+        <%= f.label "counter_two_value"  %>
+        <%= f.number_field "counter_two_value" %><Br>
+
+        <%= f.label "counter_three_title" %>
+        <%= f.text_field "counter_three_title" %><Br>
+
+        <%= f.label "counter_three_value"  %>
+        <%= f.number_field "counter_three_value" %><Br>
+        
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>Content two</h1>
+
+<%= render partial: "contents_2", locals: { component: "content_two" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'content_two' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "sub_header"  %>
+        <%= f.text_field "sub_header" %><Br>
+
+        <%= f.label "feature_one" %>
+        <%= f.text_field "feature_one" %><Br>
+
+
+        <%= f.label "feature-two" %>
+        <%= f.text_field "feature-two" %><Br>
+
+        <%= f.label "feature-three" %>
+        <%= f.text_field "feature-three" %><Br>
+
+        <%= f.label "iamge" %>
+        <%= f.file_field "iamge" %><Br>
+        
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>feature one</h1>
+
+<%= render partial: "features_1", locals: { component: "services_one" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'services_one' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "service_one_header"  %>
+        <%= f.text_field "service_one_header" %><Br>
+
+        <%= f.label "service_one_content" %>
+        <%= f.text_field "service_one_content" %><Br>
+
+        <%= f.label "service_two_header"  %>
+        <%= f.text_field "service_two_header" %><Br>
+
+        <%= f.label "service_two_content" %>
+        <%= f.text_field "service_two_content" %><Br>
+
+        <%= f.label "service_three_header"  %>
+        <%= f.text_field "service_three_header" %><Br>
+
+        <%= f.label "service_three_content" %>
+        <%= f.text_field "service_three_content" %><Br>
+
+        <%= f.label "service_four_header"  %>
+        <%= f.text_field "service_four_header" %><Br>
+
+        <%= f.label "service_four_content" %>
+        <%= f.text_field "service_four_content" %><Br>
+        
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>feature two</h1>
+
+<%= render partial: "features_2", locals: { component: "services_two" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'services_two' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "service_one_header"  %>
+        <%= f.text_field "service_one_header" %><Br>
+
+        <%= f.label "service_one_content" %>
+        <%= f.text_field "service_one_content" %><Br>
+
+        <%= f.label "service_two_header"  %>
+        <%= f.text_field "service_two_header" %><Br>
+
+        <%= f.label "service_two_content" %>
+        <%= f.text_field "service_two_content" %><Br>
+
+        <%= f.label "service_three_header"  %>
+        <%= f.text_field "service_three_header" %><Br>
+
+        <%= f.label "service_three_content" %>
+        <%= f.text_field "service_three_content" %><Br>
+
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>feature three</h1>
+
+<%= render partial: "features_3", locals: { component: "services_three" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'services_three' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "service_one_header"  %>
+        <%= f.text_field "service_one_header" %><Br>
+
+        <%= f.label "service_one_content" %>
+        <%= f.text_field "service_one_content" %><Br>
+
+        <%= f.label "service_two_header"  %>
+        <%= f.text_field "service_two_header" %><Br>
+
+        <%= f.label "service_two_content" %>
+        <%= f.text_field "service_two_content" %><Br>
+
+        <%= f.label "service_three_header"  %>
+        <%= f.text_field "service_three_header" %><Br>
+
+        <%= f.label "service_three_content" %>
+        <%= f.text_field "service_three_content" %><Br>
+
+        <%= f.label "service_four_header"  %>
+        <%= f.text_field "service_four_header" %><Br>
+
+        <%= f.label "service_four_content" %>
+        <%= f.text_field "service_four_content" %><Br>
+
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>feature four</h1>
+
+<%= render partial: "features_4", locals: { component: "services_four" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'services_four' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "service_one_header"  %>
+        <%= f.text_field "service_one_header" %><Br>
+
+        <%= f.label "service_one_content" %>
+        <%= f.text_field "service_one_content" %><Br>
+
+        <%= f.label "service_two_header"  %>
+        <%= f.text_field "service_two_header" %><Br>
+
+        <%= f.label "service_two_content" %>
+        <%= f.text_field "service_two_content" %><Br>
+
+        <%= f.label "service_three_header"  %>
+        <%= f.text_field "service_three_header" %><Br>
+
+        <%= f.label "service_three_content" %>
+        <%= f.text_field "service_three_content" %><Br>
+
+        <%= f.label "cta" %>
+        <%= f.text_field "cta" %><Br>
+
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>Testi one</h1>
+
+<%= render partial: "testi_1", locals: { component: "testimonial_one" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'testimonial_one' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "image_one"  %>
+        <%= f.file_field "image_one" %><Br>
+
+        <%= f.label "testimonial_one" %>
+        <%= f.text_field "testimonial_one" %><Br>
+
+        <%= f.label "testimonial_one_author"  %>
+        <%= f.text_field "testimonial_one_author" %><Br>
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>Testi two</h1>
+
+<%= render partial: "testi_2", locals: { component: "testimonial_two" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'testimonial_two' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "author_image_one"  %>
+        <%= f.file_field "author_image_one" %><Br>
+
+        <%= f.label "testimonial_one" %>
+        <%= f.text_field "testimonial_one" %><Br>
+
+        <%= f.label "testimonial_one_author"  %>
+        <%= f.text_field "testimonial_one_author" %><Br>
+
+        <%= f.label "author_image_two"  %>
+        <%= f.file_field "author_image_two" %><Br>
+
+        <%= f.label "testimonial_two" %>
+        <%= f.text_field "testimonial_two" %><Br>
+
+        <%= f.label "testimonial_two_author"  %>
+        <%= f.text_field "testimonial_two_author" %><Br>
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>Testi three</h1>
+
+<%= render partial: "testi_3", locals: { component: "testimonial_three" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'testimonial_three' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "author_image_one"  %>
+        <%= f.file_field "author_image_one" %><Br>
+
+        <%= f.label "testimonial_one" %>
+        <%= f.text_field "testimonial_one" %><Br>
+
+        <%= f.label "testimonial_one_company" %>
+        <%= f.text_field "testimonial_one_company" %><Br>
+
+        <%= f.label "testimonial_one_author"  %>
+        <%= f.text_field "testimonial_one_author" %><Br>
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>closing one</h1>
+
+<%= render partial: "closing_1", locals: { component: "closing_cta_one" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'closing_cta_one' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "sub_header"  %>
+        <%= f.text_field "sub_header" %><Br>
+
+        <%= f.label "cta"  %>
+        <%= f.text_field "cta" %><Br>
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>closing two</h1>
+
+<%= render partial: "closing_2", locals: { component: "closing_cta_two" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'closing_cta_two' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "header"  %>
+        <%= f.text_field "header" %><Br>
+
+        <%= f.label "sub_header"  %>
+        <%= f.text_field "sub_header" %><Br>
+
+        <%= f.label "cta"  %>
+        <%= f.text_field "cta" %><Br>
+
+        <%= f.label "background_img"  %>
+        <%= f.file_field "background_img" %><Br>
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
+<hr>
+<h1>footer one</h1>
+
+<%= render partial: "footer_1", locals: { component: "footer_one" } %>
+
+
+<%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'footer_one' %>
+
+    <%= fields_for :form_fields do |f| %>
+        
+        <%= f.label "logo"  %>
+        <%= f.file_field "logo" %><Br>
+
+        <%= f.label "column_one_header"  %>
+        <%= f.text_field "column_one_header" %><Br>
+
+        <%= f.label "column_one_lists"  %>
+        <%= f.text_field "column_one_lists" %><Br>
+
+        <%= f.label "column_two_header"  %>
+        <%= f.text_field "column_two_header" %><Br>
+
+        <%= f.label "column_two_lists"  %>
+        <%= f.text_field "column_two_lists" %><Br>
+
+        <%= f.label "column_three_header"  %>
+        <%= f.text_field "column_three_header" %><Br>
+
+        <%= f.label "column_three_lists"  %>
+        <%= f.text_field "column_three_lists" %><Br>
+
+        
+        
+    <% end%>
+
+    <%= submit_tag "create file" %>
+    
+<% end %>
+
