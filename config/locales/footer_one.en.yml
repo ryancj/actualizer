@@ -1,9 +1,10 @@
-en:
+---
+:en:
   footer_one:
-    logo: "Zhao & Associate Inc."
-    column_one_header: "Services"
-    column_one_lists: "PLUMBING"
-    column_two_header: "About Us"
-    column_two_lists: "About Us"
-    column_three_header: "What Our Clients Say"
-    column_three_lists: "What Our Clients Say"
+    logo: ''
+    column_one_header: Services
+    column_one_lists: ''
+    column_two_header: About Us
+    column_two_lists: ''
+    column_three_header: Contact US
+    column_three_lists: ''

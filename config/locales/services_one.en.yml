@@ -1,43 +1,24 @@
-en:
+---
+:en:
   services_one:
-    header: "Our Services"
-    service_one_header: "PLUMBING"
-    service_one_content: "We repair, install, supply, and service. 
-    Basins
-    Bathtubs
-    Drains
-    Faucets
-    Garburators
-    Hot water dispensors
-    Hot water tanks
-    Sinks
-    Showers
-    Shower valves
-    Toilets
-    Water piping
-    Water heaters"
-    service_two_header: "WATER HEATERS"
-    service_two_content: "We repair, install, supply and service. 
-    Gas water heaters
-    Electric water heaters
-    Hot water tanks 
-    Tankless water heaters
-    Boilers (radiant and baseboard hot water heating)
-    Pool heaters"
-    service_three_header: "HEATING"
-    service_three_content: "We repair, install, supply and service.
-    Boilers (radiant and baseboard hot water heating)
-    Furnaces (forced air heating)
-    Gas fireplaces
-    Pool heaters"
-    service_four_header: "GAS FITTING"
-    service_four_content: "We repair, install, supply and service. 
-    Gas piping
-    Barbeque connections and boxes
-    Boilers (radiant and baseboard hot water heating)
-    Furnaces (forced air heating)
-    Gas fireplaces
-    Pool heaters
-    Gas water heaters
-    Hot water tanks
-    Tankless water heaters"
+    header: Our Services
+    service_one_header: Arc Welding
+    service_one_content: Arc welding is a type of welding that uses a power supply
+      to create an electric arc between an electrode and the material to melt the
+      metals at that welding point. They can use either direct or alternating current,
+      and consumable or non-consumable electrodes to complete each project.
+    service_two_header: Structural Steel
+    service_two_content: Transforming massive steel beams and sheets into fully fabricated
+      components ready to be fitted into a structure requires a number of precision
+      steps. At every juncture, Structural Steel Services adheres to the highest standards
+      to make sure that we exactly meet the client’s specifications.
+    service_three_header: Stick Welding
+    service_three_content: Stick welding is a form of welding that uses electricity
+      to melt a metal filler rod/electrode/stick (electrode is the proper term) that
+      melts both the metal joint and electrode all at once to fuse two pieces of metal
+      together and fill the joint with filler metal at the same time.
+    service_four_header: Plasma cutting
+    service_four_content: Plasma cutting is a process that cuts through electrically
+      conductive materials by means of an accelerated jet of hot plasma. Typical materials
+      cut with a plasma torch include steel, stainless steel, aluminum, brass and
+      copper, although other conductive metals may be cut as well.

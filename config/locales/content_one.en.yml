@@ -1,10 +1,12 @@
+---
 :en:
   content_one:
-    header: Hello
-    sub_header: ''
-    counter_one_title: ''
-    counter_one_value: ''
-    counter_two_title: ''
-    counter_two_value: ''
-    counter_three_title: ''
-    counter_three_value: ''
+    header: Local Welding Service with Quality in Mind
+    sub_header: Trust DNC Welding for all of your commercial and industrial welding
+      services
+    counter_one_title: Happy Customers
+    counter_one_value: '300'
+    counter_two_title: Working Professionals
+    counter_two_value: '50'
+    counter_three_title: Hrs Immediate Response
+    counter_three_value: '24'

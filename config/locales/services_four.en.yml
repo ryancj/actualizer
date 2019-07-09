@@ -1,12 +1,20 @@
-en:
+---
+:en:
   services_four:
-    header: "test"
-    sub_header: "test"
-    image: "test"
-    service_one_header: "test"
-    service_one_content: "test"
-    service_two_header: "test"
-    service_two_content: "test"
-    service_three_header: "test"
-    service_three_content: "test"
-    cta: "test"
+    header: Our Services
+    service_one_header: Arc Welding
+    service_one_content: Arc welding is a type of welding that uses a power supply
+      to create an electric arc between an electrode and the material to melt the
+      metals at that welding point. They can use either direct or alternating current,
+      and consumable or non-consumable electrodes to complete each project.
+    service_two_header: Structural Steel
+    service_two_content: Transforming massive steel beams and sheets into fully fabricated
+      components ready to be fitted into a structure requires a number of precision
+      steps. At every juncture, Structural Steel Services adheres to the highest standards
+      to make sure that we exactly meet the client’s specifications.
+    service_three_header: Stick Welding
+    service_three_content: Stick welding is a form of welding that uses electricity
+      to melt a metal filler rod/electrode/stick (electrode is the proper term) that
+      melts both the metal joint and electrode all at once to fuse two pieces of metal
+      together and fill the joint with filler metal at the same time.
+    cta: Work With Us

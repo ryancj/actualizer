@@ -1,16 +1,17 @@
-en:
+---
+:en:
   testimonial_two:
-    header: "What Our Clients Say"
-    image_one: "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
-    testimonial_one: "TEST"
-    testimonial_one_author: "Justin C"
-    testimonial_one_company: "Happy Home Owner"
-    image_two: "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
-    testimonial_two: "Good honest guys. Rate per hour was spot on and Glen was our repairman. Gave a rough estimate and final cost was pretty much bang on. They fit me into their tight schedule regardless of how busy they were. Fixed a weeping leak from a poor solder job on a bath tub copper pipe which was leaking into ceiling drywall.  Definitely recommended."
-    testimonial_two_author: "Justin C"
-    testimonial_two_company: "Happy Home Owner"
-    image_three: "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
-    testimonial_three: "Affordable and great service! I called in about a leaky faucet and other miscellaneous items. Even though they were super busy, they fit me in to fix my leaky tap (it was urgent). While they were there, they decided to check my other bathroom tap since there was a hunch it might be close to breaking and they were right! On that day, both my faucets got fixed and they came back the next week to fix the other items including installing a new kitchen faucet. All at a reasonable price!"
-    testimonial_three_author: "Jessica Chang"
-    testimonial_three_company: "Happy Home Owner"
-  
+    header: Our Services
+    author_image_one: ''
+    testimonial_one: DNC Welding is a great Welding company in Vancouver. We hire
+      this welding contractor to build a steel framework for a commercial building
+      we were working on. Mike Lowe was very knowledgeable in reading drawings and
+      constructing the steel framework for the commercial staircase. We would highly
+      recommend this company to anyone looking for a quality welding and metal fabrication
+      company in Vancouver BC.
+    testimonial_one_author: Christopher Simon
+    author_image_two: ''
+    testimonial_two: 'Great welding company...it was nice to have a mobile welding
+      service come to our house and know exactly what they were doing. I would highly
+      recommend to anyone looking for a welding contractor. '
+    testimonial_two_author: Randy Ivey

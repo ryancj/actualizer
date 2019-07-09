@@ -1,5 +1,8 @@
-en:
+---
+:en:
   closing_cta_one:
-    header: "We Repair, Install, Supply, and Service"
-    sub_header: "Our licenced, professional technicians will deliver exepctional service for you and your family. We warranty all labour and materials we supply for a minimum of one year for piece of mind."
-    cta: "Contact Us"
+    header: Custom Built Projects Are Our Specialty
+    sub_header: DNC Welding is a company that is proud of providing the best welding
+      in this industry
+    cta: Work With Us
+    background_image: https://images.unsplash.com/photo-1485881922961-fbe39329af2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9
