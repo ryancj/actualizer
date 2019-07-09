@@ -1,9 +1,14 @@
 @import '../global_variables';
 
+// Footer Container
 .footer {
   position: relative;
   background: url('clients_bg.jpg') no-repeat center center;
   padding: 3rem 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .footer:before {
@@ -11,18 +16,13 @@
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
-  // background: $hero-bg-overlay;
+  background: rgba(0,0,0,0);
 }
 
+// Footer 1 Specific
 .footer-1 {
   background: #FFF;
 }
-
-.footer-2 {
-  background: #000;
-  padding: 1rem 0;
-}
-
 .footer-1-content {
   h6 {
     margin-bottom: 1.5rem;
@@ -34,7 +34,6 @@
     margin-bottom: 1rem;
   }
 }
-
 .footer-1-additional {
   padding: 2rem 0;
   background: #000;
@@ -52,9 +51,35 @@
     text-align: right;
   }
 }
+@media(max-width: 1200px) {
+  .left {
+    text-align: center !important;
+    margin-bottom: 1rem;
+  }
+  .middle {
+    display: none;
+    text-align: center !important;
+    margin-bottom: 1rem;
+  }
+  .right {
+    text-align: center !important;
+  }
+}
+@media(max-width: 991px) {
+  .footer-col {
+    margin-bottom: 2rem;
+  }
+  .footer-col.last {
+    margin-bottom: 0;
+  }
+}
 
-.footer-2-content {
+// Footer 2 Spcific
+.footer-2 {
+  background: #000;
   padding: 2rem 0;
+}
+.footer-2-content {
   background: #000;
   color: #FFF;
 
@@ -73,4 +98,7 @@
   a.act8 {
     color: rgba(255,255,255,0.5);
   }
+}
+.footer-2-additional {
+  margin-top: 2rem;
 }

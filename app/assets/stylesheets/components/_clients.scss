@@ -1,34 +1,59 @@
 @import '../global_variables';
 
+// Clients Container
 .clients {
   position: relative;
   background: url('clients_bg.jpg') no-repeat center center;
-  padding: 3rem 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-.clients-2 {
-  background: #FFF;
-  padding: 5rem 0
-}
-
 .clients:before {
   content: "";
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
-  // background: $hero-bg-overlay;
+  background: rgba(0,0,0,0);
+}
+.client-cta {
+  display: none;
+  margin-top: 3rem;
 }
 
+// Clients 1 Specific
+.clients-1 {
+  padding: 2rem 0 2.5rem;
+  // background: #000;
+}
 .clients-1-content {
   text-align: center;
   color: #FFF;
 
-  h5 {
+  h6 {
     font-weight: 400;
     margin-bottom: 2rem;
   }
 }
+@media(max-width: 575px) {
+  .clients-1-content {
+    h6 {
+      margin-bottom: 1.5rem;
+    }
+    img {
+      margin-bottom: 2rem;
+    }
+    .last-client {
+      margin-bottom: 0;
+    }
+  }
+}
 
+// Clients 2 Specific
+.clients-2 {
+  background: #FFF;
+  padding: 4rem 0 5rem;
+}
 .clients-2-content {
   text-align: center;
   color: #FFF;
@@ -39,12 +64,35 @@
   }
   p {
     color: #7e8085;
-    padding: 0 10rem;
     font-weight: 300;
     margin-bottom: 3rem;
     line-height: 1.63;
   }
-  div {
+  .client-container {
     margin-bottom: 2rem;
+  }
+}
+@media(max-width: 991px) {
+  .clients-2 {
+    padding: 2rem 0 3rem;
+  }
+  .clients-2-content {
+    h2 {
+      font-size: 36px;
+    }
+    br {
+      display: none;
+    }
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+}
+@media(max-width: 575px) {
+  .client {
+    margin-bottom: 2rem;
+  }
+  .last-client {
+    margin-bottom: 0;
   }
 }

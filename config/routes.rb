@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root "static#index"
 
   resources :components
+  get "/test" => "static#test"
 end
