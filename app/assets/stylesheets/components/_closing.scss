@@ -1,5 +1,6 @@
 @import '../global_variables';
 
+// Closing Container
 .closing {
   position: relative;
   background: url('hero.jpg') no-repeat center center;
@@ -8,28 +9,19 @@
   -o-background-size: cover;
   background-size: cover;
 }
-
 .closing:before {
   content: "";
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
-  // background: $hero-bg-overlay;
+  background: rgba(0,0,0,0);
 }
 
+// Closing 1 Specific
 .closing-1 {
   background: #FFF;
-  padding: 4rem 16rem;
+  padding: 4rem 0;
 }
-
-.closing-1 {
-  padding: 4rem 16rem;
-}
-
-.closing-2 {
-  padding: 4.5rem 0;
-}
-
 .closing-1-content {
   h2 {
     font-size: 36px;
@@ -42,7 +34,27 @@
     line-height: 1.63;
   }
 }
+@media(max-width: 991px) {
+  .closing-1 {
+    padding: 2rem 0;
+  }
+  .closing-1-content {
+    h2 {
+      line-height: 1.4;
+    }
+    br {
+      display: none;
+    }
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+}
 
+// Closing 2  Specific
+.closing-2 {
+  padding: 4.5rem 0;
+}
 .closing-2-content {
   h2 {
     color: #FFF;
@@ -55,5 +67,18 @@
     font-weight: 400;
     margin-bottom: 2rem;
     line-height: 1.63;
+  }
+}
+@media(max-width: 991px) {
+  .closing-2 {
+    padding: 2rem 0;
+  }
+  .closing-2-content {
+    h2 {
+      line-height: 1.4;
+    }
+    p {
+      margin-bottom: 2rem;
+    }
   }
 }
