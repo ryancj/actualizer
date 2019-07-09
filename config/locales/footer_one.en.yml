@@ -1,9 +1,9 @@
 en:
   footer_one:
-    logo: "logo image"
-    column_one_header: "column one header"
-    column_one_lists: "why, enterprise, demo"
-    column_two_header: "column two header"
-    column_two_lists: "why, enterprise, demo"
-    column_three_header: "column three header"
-    column_three_lists: "why, enterprise, demo"
+    logo: "Zhao & Associate Inc."
+    column_one_header: "Services"
+    column_one_lists: "Services"
+    column_two_header: "About Us"
+    column_two_lists: "About Us"
+    column_three_header: "What Our Clients Say"
+    column_three_lists: "What Our Clients Say"

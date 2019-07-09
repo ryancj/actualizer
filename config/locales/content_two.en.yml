@@ -1,8 +1,13 @@
 en:
   content_one:
-    header: "header"
-    sub_header: "sub_header"
-    feature_one: "feature one"
-    feature_two: "feature two"
-    feature_three: "feature three"
+    header: "Meet your accountant Jane"
+    sub_header: "Jane Zhao, CPA, CA, founder of Zhao & Associate, has 15 plus years of experience in public accounting/tax. She articled with the global accounting firm EY Canada and developed her career in tax compliance and tax planning further with the national accounting firm Collins Barrow until she founded her own firm Zhao&Associate Chartered Professional Accountant, Inc.
+
+    Jane specializes in accounting and tax services for small business owners, professionals (doctors, dentists, lawyers, realtors, IT professionals etc), self employed and subcontractors as well as personal tax including new immigrants coming to Canada and Non - Resident disposition of properties and rental income withholding tax and reporting.
+
+    赵珺特许会计师(CPA,CA)在加拿大已有十多年的会计和税务的经验。在“全球四大”会计事务所安永爱民顿市拿到特许会计师。赵珺事务所在温哥华专门为小型公司及个人（包括新移民来加拿大), 非居民买房卖房，出租房提供会计和税务服务."
+
+    feature_one: "15 Years of Experience"
+    feature_two: "4000+ Clients Served"
+    feature_three: "8 Different Services Offered"
     image: "image url"
