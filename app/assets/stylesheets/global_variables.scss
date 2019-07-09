@@ -1,3 +1,29 @@
-// This app only
+/* Actualizer Global Variables */
+/******************************************************************************/
 
-$brand-primary: #134DAB !important;
+// Primary Color
+//#134DAB; Default color
+$brand-primary: red;
+$brand-primary-darkened: #20a43e;
+
+// Button
+$cta-background-color: $brand-primary;
+$cta-hover-color: $brand-primary-darkened;
+$cta-padding: 0.6rem 1.8rem 0.5rem;
+$cta-border-radius: 4px;
+$cta-border-width: 2px;
+$cta-left-margin: 0.5rem;
+
+// Fonts
+$brand-font: 'Poppins', sans-serif;
+
+/* Components Variables */
+/******************************************************************************/
+
+// Nav
+$nav-link-margin-right: 1.2rem;
+$nav-link-font-weight: 500;
+$nav-link-padding-top: 0.7rem;
+
+// Hero
+$hero-container-padding: 12rem 0;

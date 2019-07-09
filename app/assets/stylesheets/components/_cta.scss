@@ -1,0 +1,17 @@
+@import '../global_variables';
+
+// CTA
+.btn-primary {
+  padding: $cta-padding;
+  background-color: $cta-background-color;
+  border-color: $cta-background-color;
+  border-radius: $cta-border-radius;
+  border-width: $cta-border-width;
+}
+.btn-primary:hover {
+  background-color: $cta-hover-color;
+  border-color: $cta-hover-color;
+}
+.nav-cta {
+  margin-left: $cta-left-margin;
+}

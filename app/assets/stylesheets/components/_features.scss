@@ -35,6 +35,7 @@
     color: #7e8085;
     font-weight: 300;
     line-height: 1.63;
+    margin-bottom: 0;
   }
   .feature.top {
     margin-bottom: 3rem;
@@ -50,11 +51,8 @@
       line-height: 1.4;
       margin-bottom: 2rem;
     }
-    .feature.top {
-      margin-bottom: 0;
-    }
-    .feature {
-      margin-bottom: 1rem;
+    .feature.top, .feature {
+      margin-bottom: 2rem;
     }
     .feature.last {
       margin-bottom: 0;
