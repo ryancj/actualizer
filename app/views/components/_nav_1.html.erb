@@ -5,7 +5,7 @@
       <h2 class="brand-text"><%= titleize_string(get_content("#{component}.logo_name")) %></h2>
     <% else %>
         <a href="#" class="text-decoration-none">
-          <%= image_tag get_content("#{component}.logo") %>
+          <%= image_tag get_content("#{component}.logo"), class: "brand-img-wide" %>
         </a>
     <% end %>
 
