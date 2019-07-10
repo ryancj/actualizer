@@ -36,3 +36,9 @@
     margin-top: 1rem;
   }
 }
+@media(max-width: 620px) {
+  .brand-image {
+    width: 250px;
+    height: auto;
+  }
+}
