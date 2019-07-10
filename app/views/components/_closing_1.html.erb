@@ -5,9 +5,9 @@ background-size: cover; position: relative; -webkit-background-size: cover; -moz
       <div class="col-xl-12">
 
         <div class="closing-1-content text-center">
-          <h2><%= get_content("#{component}.header") %></h2>
+          <h2><%= titleize_string(get_content("#{component}.header")) %></h2>
           <p>
-            <%= get_content("#{component}.sub_header") %>
+            <%= capitalize_string(get_content("#{component}.sub_header")) %>
           </p>
           <a href="#">
             <button type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
