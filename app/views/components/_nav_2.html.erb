@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+
+    <% if get_content("#{component}.logo").blank? %>
+      <h2 class="brand-text"><%= get_content("#{component}.logo_name") %></h2>
+    <% else %>
+        <a href="#" class="text-decoration-none">
+          <%= image_tag get_content("#{component}.logo") %>
+        </a>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMobile">
+      <div class="navbar-nav mx-auto">
+        <% get_content("#{component}.nav_menu").split(", ").each do |l| %>
+          <a class="nav-item nav-link" href="#"><%= l %></a>
+        <% end %>
+      </div>
+      <a href="#">
+        <button type="button" class="btn btn-primary nav-cta"><%= get_content("#{component}.cta") %></button>
+      </a>
+    </div>
+  </div>
+</nav>

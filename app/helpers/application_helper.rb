@@ -7,8 +7,6 @@ module ApplicationHelper
         rescue I18n::MissingTranslationData
             return "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
         end
-
     end
-
 
 end
