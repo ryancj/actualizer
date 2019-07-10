@@ -1,0 +1,18 @@
+en:
+  testimonial_one:
+    header: "What Our Clients Say"
+    image_one: "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
+    testimonial_one: "We’ve seen conversion increases of over 70%, just by switching a client’s landing page over to Unbounce. We’re also able to test and iterate more rapidly, which is a win for everyone"
+    testimonial_one_author: "Val A"
+    testimonial_one_company: "CFO Motion Picture"
+
+    image_two: "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
+    testimonial_two: "We’ve seen conversion increases of over 70%, just by switching a client’s landing page over to Unbounce. We’re also able to test and iterate more rapidly, which is a win for everyone"
+    testimonial_two_author: "Ye T"
+    testimonial_two_company: "Family/Personal Tax"
+
+    image_three: "https://actualize8storage.s3.ca-central-1.amazonaws.com/Library/dan-ROJFuWCsfmA-unsplash.jpg"
+    testimonial_three: "We’ve seen conversion increases of over 70%, just by switching a client’s landing page over to Unbounce. We’re also able to test and iterate more rapidly, which is a win for everyone"
+    testimonial_three_author: "Anastasia H"
+    testimonial_three_company: "Small Business Owner "
+  
