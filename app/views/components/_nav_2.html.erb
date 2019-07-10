@@ -4,7 +4,7 @@
     <% if get_content("#{component}.logo").blank? %>
       <h2 class="brand-text"><%= titleize_string(get_content("#{component}.logo_name")) %></h2>
     <% else %>
-        <a href="#" class="text-decoration-none">
+        <a href="#" class="brand-img text-decoration-none">
           <%= image_tag get_content("#{component}.logo") %>
         </a>
     <% end %>
