@@ -1,12 +1,39 @@
 en:
   services_four:
-    header: "test"
-    sub_header: "test"
+    header: "Our Services"
+    sub_header: "PLUMBING"
     image: "test"
-    service_one_header: "test"
-    service_one_content: "test"
-    service_two_header: "test"
-    service_two_content: "test"
-    service_three_header: "test"
-    service_three_content: "test "
-    cta: "test"
+    service_one_header: "We repair, install, supply, and service"
+    service_one_content: "Basins
+    Bathtubs
+    Drains
+    Faucets
+    Garburators
+    Hot water dispensors
+    Hot water tanks
+    Sinks
+    Showers
+    Shower valves
+    Toilets
+    Water piping
+    Water heaters"
+    service_two_header: "WATER HEATERS"
+    service_two_content: "We repair, install, supply and service. 
+    Gas water heaters
+    Electric water heaters
+    Hot water tanks 
+    Tankless water heaters
+    Boilers (radiant and baseboard hot water heating)
+    Pool heaters"
+    service_three_header: "GAS FITTING"
+    service_three_content: "We repair, install, supply and service. 
+    Gas piping
+    Barbeque connections and boxes
+    Boilers (radiant and baseboard hot water heating)
+    Furnaces (forced air heating)
+    Gas fireplaces
+    Pool heaters
+    Gas water heaters
+    Hot water tanks
+    Tankless water heaters "
+    cta: "View More Services"
