@@ -1,12 +1,16 @@
 class ComponentsController < ApplicationController
-    
+
+    def index
+
+    end
+
     def new
-        
-        
+
+
     end
 
     def create
-    
+
         component_name = params[:component_name]
 
 
@@ -24,7 +28,7 @@ class ComponentsController < ApplicationController
         file.close
 
         redirect_to new_component_path
-        
+
     end
-    
+
 end

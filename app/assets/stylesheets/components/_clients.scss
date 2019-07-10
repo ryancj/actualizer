@@ -90,9 +90,13 @@
 }
 @media(max-width: 575px) {
   .client {
+    width: 200px;
+    height: auto;
     margin-bottom: 2rem;
   }
   .last-client {
+    width: 200px;
+    height: auto;
     margin-bottom: 0;
   }
 }
