@@ -1,8 +1,6 @@
   <% if get_content("#{component}.background_image").blank? %>
-    <%= "wtf" %>
     <div class="clients clients-3">
   <% else %>
-  <%= "wtf_!" %>
     <div class="clients clients-1" style="background: url(<%= get_content("#{component}.background_image") %>) no-repeat center center;
     background-size: cover; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
   <% end %>
@@ -12,7 +10,7 @@
       <div class="col-xl-12">
 
         <div class="clients-1-content">
-          <h6><%= get_content("#{component}.header") %></h6>
+          <h6><%= titleize_string(get_content("#{component}.header")) %></h6>
           <div class="row d-flex align-items-center">
             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12
             offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 text-center">
@@ -37,3 +35,6 @@
     </div>
   </div>
 </div>
+
+
+

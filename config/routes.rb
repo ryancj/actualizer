@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   resources :components
   get "/test" => "static#test"
   get '/show' => "static#show"
+  get "/example" => "static#index"
   
 end

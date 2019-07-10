@@ -9,4 +9,15 @@ module ApplicationHelper
         end
     end
 
+    def titleize_string(string)
+        string.titleize
+    end
+
+    def upcase_string(string)
+    end
+
+    def capitalize_string(string)
+        string.capitalize
+    end
+
 end

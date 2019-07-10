@@ -9,26 +9,26 @@
               <%= image_tag "brand", class: "img-fluid" %>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-12 footer-col">
-              <h6><%= get_content("#{component}.column_one_header") %></h6>
+              <h6><%= titleize_string(get_content("#{component}.column_one_header")) %></h6>
               <p>
                 <% get_content("#{component}.column_one_lists").split(",").each do |l| %>
-                  <a href="#"><%= l %></a>
+                  <a href="#"><%= capitalize_string(l) %></a>
                 <% end %>
               </p>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-12 footer-col">
-              <h6><%= get_content("#{component}.column_two_header") %></h6>
+              <h6><%= titleize_string(get_content("#{component}.column_two_header")) %></h6>
               <p>
                 <% get_content("#{component}.column_two_lists").split(",").each do |l| %>
-                  <a href="#"><%= l %></a>
+                  <a href="#"><%= capitalize_string(l) %></a>
                 <% end %>
               </p>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-12 footer-col last">
-              <h6><%= get_content("#{component}.column_three_header") %></h6>
+              <h6><%= titleize_string(get_content("#{component}.column_three_header")) %></h6>
               <p>
                  <% get_content("#{component}.column_three_lists").split(",").each do |l| %>
-                  <a href="#"><%= l %></a>
+                  <a href="#"><%= capitalize_string(l) %></a>
                 <% end %>
               </p>
             </div>
@@ -43,7 +43,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xl-4 left">
-        © 2017 Fasken Martineau DuMoulin LLP
+        © <%= get_content("#{component}.year") %> <%= titleize_string(get_content("#{component}.company_name")) %>
       </div>
       <div class="col-xl-4 middle">
         <a href="#">Designed by Actualized8</a>

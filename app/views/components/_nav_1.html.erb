@@ -2,7 +2,7 @@
   <div class="container">
 
     <% if get_content("#{component}.logo").blank? %>
-      <h2 class="brand-text"><%= get_content("#{component}.logo_name") %></h2>
+      <h2 class="brand-text"><%= titleize_string(get_content("#{component}.logo_name")) %></h2>
     <% else %>
         <a href="#" class="text-decoration-none">
           <%= image_tag get_content("#{component}.logo") %>
@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse" id="navbarMobile">
       <div class="navbar-nav ml-auto">
       <% get_content("#{component}.nav_menu").split(", ").each do |l| %>
-        <a class="nav-item nav-link" href="#"><%= l %></a>
+        <a class="nav-item nav-link" href="#"><%= titleize_string(l) %></a>
       <% end %>
         
         <a href="#">
