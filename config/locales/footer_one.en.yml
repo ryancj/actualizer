@@ -1,9 +1,14 @@
 en:
   footer_one:
-    logo: ""
-    column_one_header: "Services"
-    column_one_lists: "Services"
-    column_two_header: "About Us"
-    column_two_lists: "About Us"
-    column_three_header: "What Our Clients Say"
-    column_three_lists: "What Our Clients Say" 
+    logo: https://actualizer.s3.amazonaws.com/stock/Finance/hirji.png
+    adddress: M3-601 West Broadway, Vancouver, B.C. V5Z 4C2
+    email: hirji@hloca.com
+    phone: (604) 738-8299
+    column_one_header: Services
+    column_one_lists: 'Accounting, Audits, Bookkeeping, Business Advisory Services, Corporate Tax Services, Personal Tax Services'
+    column_two_header: About Us
+    column_two_lists: 'Meet Our Team'
+    column_three_header: Contact US
+    column_three_lists: 'Our Location, Map, Feedback'
+    year: 2019
+    company_name: HIRJI, LUM & ORR
