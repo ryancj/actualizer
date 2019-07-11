@@ -1,19 +1,51 @@
 @import '../global_variables';
 
+// Container
 .navbar {
-  height: 100px;
+  min-height: 100px;
   background: #FFF;
   background-color: #FFF;
 }
 
-.nav-link {
-  margin-right: 1.2rem;
+// Brand IMG
+// Use if image is a Tall, Vertical Rectangle
+.brand-img-tall {
+  height: 40px;
+  width: auto;
+}
+// Use if image is a Wide, Horizontal Rectangle
+.brand-img-wide {
+  height: auto;
+  width: 150px;
+}
+// Use no class if image is Squared or Small
+
+// Brand Text Fallback
+.brand-text {
+  color: $brand-primary;
   font-weight: 500;
-  padding-top: 0.7rem;
+  margin-bottom: 0;
+  text-decoration: none;
 }
 
-.btn-primary {
-  padding: 0.6rem 1.8rem 0.5rem;
-  background-color: #134DAB;
-  border-color: #134DAB;
+// Links
+.nav-link {
+  margin-right: $nav-link-margin-right;
+  font-weight: $nav-link-font-weight;
+  padding-top: $nav-link-padding-top;
+}
+
+// Responsiveness
+@media(max-width: 991px) {
+  .navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+  .nav-cta {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
 }

@@ -1,0 +1,37 @@
+<div class="clients clients-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <div class="clients-2-content">
+          <h2><%= titleize_string(get_content("#{component}.header")) %></h2>
+          <p>
+             <%= get_content("#{component}.sub_header") %>
+          </p>
+          <div class="row d-flex align-items-center">
+            <div class="col-xl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12
+            offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 text-center">
+               <%= image_tag get_content("#{component}.logo_one"), class: "img-fluid last-client" %>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
+              <%= image_tag get_content("#{component}.logo_two"), class: "img-fluid last-client" %>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
+               <%= image_tag get_content("#{component}.logo_three"), class: "img-fluid last-client" %>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
+              <%= image_tag get_content("#{component}.logo_four"), class: "img-fluid last-client" %>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
+              <%= image_tag get_content("#{component}.logo_five"), class: "img-fluid last-client" %>
+            </div>
+          </div>
+          <a href="#">
+            <button type="button" class="btn btn-primary client-cta"><%= get_content("#{component}.cta") %></button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

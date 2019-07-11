@@ -1,0 +1,20 @@
+<div class="closing closing-1" style="background: url(<%= get_content("#{component}.background_image") %>) no-repeat center center;
+background-size: cover; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <div class="closing-1-content text-center">
+          <h2><%= titleize_string(get_content("#{component}.header")) %></h2>
+          <p>
+            <%= capitalize_string(get_content("#{component}.sub_header")) %>
+          </p>
+          <a href="#">
+            <button type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

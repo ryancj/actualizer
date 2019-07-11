@@ -1,0 +1,39 @@
+<div class="contents contents-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <div class="contents-1-content">
+          <h2>
+            <%= capitalize_string(get_content("#{component}.header")) %>
+          </h2>
+          <p>
+            <%= capitalize_string(get_content("#{component}.sub_header")) %>
+          </p>
+          <div class="row d-flex align-items-center">
+            <div class="col-xl-4 col-lg-4 col-md-12 metric text-center">
+              <h3>
+                <%= get_content("#{component}.counter_one_value") %>
+              </h3>
+              <h6><%= titleize_string(get_content("#{component}.counter_one_title")) %></h6>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 metric text-center">
+              <h3>
+                <%= get_content("#{component}.counter_two_value") %>
+              </h3>
+              <h6><%= titleize_string(get_content("#{component}.counter_two_title")) %></h6>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 metric last text-center">
+              <h3>
+                <%= get_content("#{component}.counter_three_value") %>
+              </h3>
+              <h6><%= titleize_string(get_content("#{component}.counter_three_title")) %></h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+ 
