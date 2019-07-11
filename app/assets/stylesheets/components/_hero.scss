@@ -2,12 +2,12 @@
 
 // Hero Container
 .hero {
-  position: relative;
-  background: url('hero.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  // position: relative;
+  // background: url('hero.jpg') no-repeat center center;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
 }
 .hero:before {
   content: "";
@@ -19,7 +19,7 @@
 
 // Hero 1 Specific
 .hero-1 {
-  padding: 8rem 0;
+  padding: $hero-container-padding;
 }
 .hero-1-content {
   text-align: center;
@@ -27,6 +27,7 @@
 
   h1 {
     font-size: 64px;
+    line-height: 1.4;
     margin-bottom: 2rem;
   }
   p {
@@ -53,7 +54,7 @@
 
 // Hero 2 Specific
 .hero-2 {
-  padding: 8rem;
+  padding: $hero-container-padding;
 }
 .hero-2-content {
   text-align: left;
@@ -61,6 +62,7 @@
 
   h1 {
     font-size: 56px;
+    line-height: 1.4;
     margin-bottom: 2rem;
   }
   p {

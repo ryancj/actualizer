@@ -74,7 +74,7 @@
 }
 @media(max-width: 991px) {
   .clients-2 {
-    padding: 2rem 0;
+    padding: 2rem 0 3rem;
   }
   .clients-2-content {
     h2 {
@@ -94,5 +94,33 @@
   }
   .last-client {
     margin-bottom: 0;
+  }
+}
+
+// Clients 1 Specific
+.clients-3 {
+  padding: 2rem 0 2.5rem;
+  background: $brand-primary;
+}
+.clients-3-content {
+  text-align: center;
+  color: #FFF;
+
+  h6 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+}
+@media(max-width: 575px) {
+  .clients-3-content {
+    h6 {
+      margin-bottom: 1.5rem;
+    }
+    img {
+      margin-bottom: 2rem;
+    }
+    .last-client {
+      margin-bottom: 0;
+    }
   }
 }

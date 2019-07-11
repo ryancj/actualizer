@@ -4,13 +4,13 @@
       <div class="col-xl-12">
 
         <div class="testimonials-3-content text-left text-white">
-          <h2><%= get_content("#{component}.header") %></h2>
+          <h2><%= titleize_string(get_content("#{component}.header")) %></h2>
           <h3>
-            <%= get_content("#{component}.testimonial_one") %>
+            <%= capitalize_string(get_content("#{component}.testimonial_one")) %>
           </h3>
           <p>
-            <strong><%= get_content("#{component}.testimonial_one_author") %></strong><br>
-            <%= get_content("#{component}.testimonial_one_company") %>
+            <strong><%= titleize_string(get_content("#{component}.testimonial_one_author")) %></strong><br>
+             <%= titleize_string(get_content("#{component}.testimonial_one_company")) %>
           </p>
           <div>
             <%= image_tag "testi_ava2", class: "d-inline-block" %>

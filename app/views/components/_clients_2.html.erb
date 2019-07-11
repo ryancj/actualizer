@@ -4,28 +4,30 @@
       <div class="col-xl-12">
 
         <div class="clients-2-content">
-          <h2><%= get_content("#{component}.header") %></h2>
-          <p><%= get_content("#{component}.sub_header") %></p>
-
+          <h2><%= titleize_string(get_content("#{component}.header")) %></h2>
+          <p>
+             <%= get_content("#{component}.sub_header") %>
+          </p>
           <div class="row d-flex align-items-center">
-            <div class="col-xl-2 offset-xl-1 text-center">
-              <%#= image_tag get_content("#{component}.logo_one") %>
+            <div class="col-xl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12
+            offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 text-center">
+               <%= image_tag get_content("#{component}.logo_one"), class: "img-fluid last-client" %>
             </div>
-            <div class="col-xl-2 text-center">
-              <%#= image_tag get_content("#{component}.logo_two") %>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
+              <%= image_tag get_content("#{component}.logo_two"), class: "img-fluid last-client" %>
             </div>
-            <div class="col-xl-2 text-center">
-              <%#= image_tag get_content("#{component}.logo_three") %>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
+               <%= image_tag get_content("#{component}.logo_three"), class: "img-fluid last-client" %>
             </div>
-            <div class="col-xl-2 text-center">
-              <%#= image_tag get_content("#{component}.logo_four") %>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
+              <%= image_tag get_content("#{component}.logo_four"), class: "img-fluid last-client" %>
             </div>
-            <div class="col-xl-2 text-center">
-              <%#= image_tag get_content("#{component}.logo_five") %>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
+              <%= image_tag get_content("#{component}.logo_five"), class: "img-fluid last-client" %>
             </div>
           </div>
           <a href="#">
-            <button type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
+            <button type="button" class="btn btn-primary client-cta"><%= get_content("#{component}.cta") %></button>
           </a>
         </div>
 

@@ -5,24 +5,32 @@
 
         <div class="features-1-content">
           <h2>
-            <%= get_content("#{component}.header") %>
+            <%= capitalize_string(get_content("#{component}.header")) %>
           </h2>
           <div class="row">
-            <div class="col-xl-6 feature-top-row">
-              <h6><%= get_content("#{component}.service_one_header") %></h6>
-              <p><%= get_content("#{component}.service_one_content") %></p>
+            <div class="col-xl-6 col-lg-6 col-md-6 feature top">
+              <h6><%= titleize_string(get_content("#{component}.service_one_header")) %></h6>
+              <p>
+                <%= capitalize_string(get_content("#{component}.service_one_content")) %>
+              </p>
             </div>
-            <div class="col-xl-6 feature-top-row">
-              <h6><%= get_content("#{component}.service_two_header") %></h6>
-              <p><%= get_content("#{component}.service_two_content") %></p>
+            <div class="col-xl-6 col-lg-6 col-md-6 feature top">
+              <h6><%= titleize_string(get_content("#{component}.service_two_header")) %></h6>
+              <p>
+                <%= capitalize_string(get_content("#{component}.service_two_content")) %>
+              </p>
             </div>
-            <div class="col-xl-6">
-              <h6><%= get_content("#{component}.service_three_header") %></h6>
-              <p><%= get_content("#{component}.service_three_content") %></p>
+            <div class="col-xl-6 col-lg-6 col-md-6 feature">
+              <h6><%= titleize_string(get_content("#{component}.service_three_header")) %></h6>
+              <p>
+                <%= capitalize_string(get_content("#{component}.service_three_content")) %>
+              </p>
             </div>
-            <div class="col-xl-6">
-              <h6><%= get_content("#{component}.service_four_header") %></h6>
-              <p><%= get_content("#{component}.service_four_content") %></p>
+            <div class="col-xl-6 col-lg-6 col-md-6 feature last">
+              <h6><%= titleize_string(get_content("#{component}.service_four_header")) %></h6>
+              <p>
+                <%= capitalize_string(get_content("#{component}.service_four_content")) %>
+              </p>
             </div>
           </div>
         </div>
