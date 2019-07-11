@@ -8,7 +8,7 @@
             <div class="col-xl-3 col-lg-3 col-md-12 footer-col">
 
               <% if get_content("#{component}.logo").blank? %>
-                <h2 class="brand-text"><%= titleize_string(get_content("#{component}.logo_name")) %></h2>
+                <h5 class="brand-text">Benson + Company</h5>
               <% else %>
                 <a href="#" class="text-decoration-none">
                   <%= image_tag get_content("#{component}.logo"), class: "img-fluid" %>
