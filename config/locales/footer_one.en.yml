@@ -1,11 +1,14 @@
----
 :en:
   footer_one:
-    logo: ''
+    logo: https://actualizer.s3.amazonaws.com/stock/Welding/arlogo.gif
+    adddress: 1620 E. Kent Ave. Vancouver, British Columbia  V5P 2S7
+    email: pierre@arhytech.com
+    phone: 604-321-2546
     column_one_header: Services
-    column_one_lists: ''
+    column_one_lists: 'Arc Welding, Structural Steel, Aluminum, Stainless Steel, MSteel, Mig Plastic'
     column_two_header: About Us
-    column_two_lists: ''
+    column_two_lists: 'Meet Our Team, BC Welding Contractors, Mobile Welders BC'
     column_three_header: Contact US
-    column_three_lists: ''
-  
+    column_three_lists: 'Our Location, Map, Feedback'
+    year: 2019
+    company_name: A.R. Hytech
