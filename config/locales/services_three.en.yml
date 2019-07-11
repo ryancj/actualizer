@@ -1,12 +1,12 @@
 en:
   services_three:
     header: "Our Services"
-    image: "image"
-    service_one_header: "Accounting (Reviews and Notice to Reader statements)"
+    image: ""
+    service_one_header: "Accounting Reviews and Notice to Reader statements"
     service_one_content: "Providing financial information to our clients in a timely and accurate manner is a commitment that we feel cannot be compromised. Meaningful, well-organized financial records ensure that your business operations will run more efficiently on a daily basis. Our firm provides a full range of cost effective accounting services."
     service_two_header: "Audits"
     service_two_content: "We view our role in the financial reporting process as an opportunity to provide constructive solutions for maximizing your company's profitability and efficiency. Audits differ from reviews and compilations, as they are an intensive examination of your company's systems and records providing the highest level of assurance."
     service_three_header: "Business Advisory Services"
     service_three_content: "Choosing the form of entity of your business (e.g. S corporation, sole proprietor, limited liability company…) is a crucial decision that can have longstanding tax implications, positive or negative. We can assist you in evaluating the pros and cons of each entity type to help you determine the most advantageous form of business for your company."
     service_four_header: "Corporate/Personal Tax"
-    service_four_content: "We prefer to take a proactive vs. reactive approach to tax services. By keeping current on new tax laws and legislation, we are in a position to identify key tax planning opportunities that minimize both your current and future tax liabilities. We provide our individual and business clients with the taxation expertise and knowledge that they deserve throughout the year." 
+    service_four_content: "We prefer to take a proactive vs. reactive approach to tax services. By keeping current on new tax laws and legislation, we are in a position to identify key tax planning opportunities that minimize both your current and future tax liabilities. We provide our individual and business clients with the taxation expertise and knowledge." 
