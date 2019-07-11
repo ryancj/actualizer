@@ -1,31 +1,32 @@
-<div class="clients clients-1">
+  <% if get_content("#{component}.background_image").blank? %>
+    <div class="clients clients-3">
+  <% else %>
+    <div class="clients clients-1" style="background: url(<%= get_content("#{component}.background_image") %>) no-repeat center center;
+    background-size: cover; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;">
+  <% end %>
+
   <div class="container">
     <div class="row">
       <div class="col-xl-12">
 
         <div class="clients-1-content">
-          <h6><%= get_content("#{component}.header") %></h6>
+          <h6><%= titleize_string(get_content("#{component}.header")) %></h6>
           <div class="row d-flex align-items-center">
             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12
             offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 text-center">
-              <%#= image_tag(get_content("#{component}.logo_one")) %>
-              <%= image_tag "company1", class: "img-fluid" %>
+              <%= image_tag(get_content("#{component}.logo_one"), class: "img-fluid last-client") %>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
-              <%#= image_tag(get_content("#{component}.logo_two")) %>
-              <%= image_tag "company2", class: "img-fluid" %>
+              <%= image_tag(get_content("#{component}.logo_two"), class: "img-fluid last-client") %>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
-              <%#= image_tag(get_content("#{component}.logo_three")) %>
-              <%= image_tag "company3", class: "img-fluid" %>
+              <%= image_tag(get_content("#{component}.logo_three"), class: "img-fluid last-client") %>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
-              <%#= image_tag(get_content("#{component}.logo_four")) %>
-              <%= image_tag "company4", class: "img-fluid" %>
+              <%= image_tag(get_content("#{component}.logo_four"), class: "img-fluid last-client") %>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center">
-              <%#= image_tag(get_content("#{component}.logo_five")) %>
-              <%= image_tag "company5", class: "img-fluid last-client" %>
+              <%= image_tag(get_content("#{component}.logo_five"), class: "img-fluid last-client") %>
             </div>
           </div>
         </div>
@@ -34,3 +35,6 @@
     </div>
   </div>
 </div>
+
+
+

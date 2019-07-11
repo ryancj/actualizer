@@ -7,6 +7,19 @@
   background-color: #FFF;
 }
 
+// Brand IMG
+// Use if image is a Tall, Vertical Rectangle
+.brand-img-tall {
+  height: 40px;
+  width: auto;
+}
+// Use if image is a Wide, Horizontal Rectangle
+.brand-img-wide {
+  height: auto;
+  width: 150px;
+}
+// Use no class if image is Squared or Small
+
 // Brand Text Fallback
 .brand-text {
   color: $brand-primary;

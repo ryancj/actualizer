@@ -1,9 +1,14 @@
-en:
+:en:
   footer_one:
-    logo: "Zhao & Associate Inc."
-    column_one_header: "Services"
-    column_one_lists: "Services"
-    column_two_header: "About Us"
-    column_two_lists: "About Us"
-    column_three_header: "What Our Clients Say"
-    column_three_lists: "What Our Clients Say" 
+    logo:  https://actualizer.s3.amazonaws.com/stock/zhao.png
+    adddress: 892 Handsworth Road, North Vancouver BC V7R 2A2
+    email: jane.zhao@zhaoandassociate.com
+    phone: (604) 417 8205
+    column_one_header: Services
+    column_one_lists: 'Corporate Tax Filing / Planning, Payroll Services, Personal Tax Filing And Planning, Non Resident Rental Income Tax'
+    column_two_header: About Us
+    column_two_lists: 'Meet Our Team'
+    column_three_header: Contact US
+    column_three_lists: 'Our Location, Map, Feedback'
+    year: 2019
+    company_name: Zhao & Associate Inc.
