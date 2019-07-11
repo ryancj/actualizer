@@ -14,6 +14,7 @@ module ApplicationHelper
     end
 
     def upcase_string(string)
+      string.upcase
     end
 
     def capitalize_string(string)

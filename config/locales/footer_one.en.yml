@@ -1,11 +1,15 @@
 ---
 :en:
   footer_one:
-    logo: ''
+    logo: https://actualizer.s3.amazonaws.com/stock/Welding/dnc2.jpg
+    adddress: 1870 Mountain Hwy, North Vancouver, BC V7J 2M8
+    email: michale@dncwellding.com
+    phone:  (604) 442-3057
     column_one_header: Services
-    column_one_lists: ''
+    column_one_lists: 'Arc Welding, Structural Steel, Oxy Fuel Cutting, Stick Welding, Mobile Welding, Mig Welding, Plasma Cutting, Arc Gouging'
     column_two_header: About Us
-    column_two_lists: ''
+    column_two_lists: 'Meet Our Team, BC Welding Contractors, Mobile Welders BC'
     column_three_header: Contact US
-    column_three_lists: ''
- 
+    column_three_lists: 'Our Location, Map, Feedback'
+    year: 2019
+    company_name: DNC Welding Vancouver

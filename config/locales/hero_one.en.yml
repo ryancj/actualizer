@@ -1,11 +1,10 @@
 ---
 :en:
   hero_one:
-    header: Let Our Skilled Trades Solve Your Complex Problems
+    header: Skilled Professionals for Your Complex Problems
     sub_header: DNC Welding is a local welding Vancouver BC Canada service with quality
-      in mind. We are a certified service that provides most types of welding through
-      out BC, Canada.  DNC Welding is a company that is proud of providing affordable
-      quality services.
+      in mind. 
     cta: Work With Us
-    background_image: https://images.unsplash.com/photo-1502883687597-739575b8911d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9
- 
+    background_image: https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9
+
+    # http://www.dncwelding.com/wp-content/uploads/bb-plugin/cache/GMAW.welding.af_.ncs_-e1428067528520-panorama.jpg
