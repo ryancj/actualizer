@@ -5,7 +5,7 @@
                 <%= hidden_field_tag 'component_name', 'nav_one' %>
 
                 <%= fields_for :form_fields do |f| %>
-                    <% inputs = ["logo_name", "nav_menu", "cta"] %>
+                    <% inputs = ["logo", "logo_name", "nav_menu", "cta"] %>
                     <% inputs.each do |i| %>
                         <%= render partial: "components/form_input/#{i}", locals: { f: f } %>   
                     <% end %>
