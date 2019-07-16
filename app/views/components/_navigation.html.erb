@@ -1,0 +1,40 @@
+<h1>Nav one</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <%= form_tag components_path do |f| %>
+                <%= hidden_field_tag 'component_name', 'nav_one' %>
+
+                <%= fields_for :form_fields do |f| %>
+                    <% inputs = ["logo_name", "nav_menu", "cta"] %>
+                    <% inputs.each do |i| %>
+                        <%= render partial: "components/form_input/#{i}", locals: { f: f } %>   
+                    <% end %>
+                <% end%>
+                <%= render "components/form_input/submit" %>
+            <% end %>
+        
+        </div>
+        <div class="col-md-8">
+            <%= render partial: "nav_1", locals: { component: "nav_one" } %>
+        </div>
+    </div>
+    
+    <h1>Nav two</h1>
+    <div class="row">
+        <div class="col-md-3">
+        <%= form_tag components_path do |f| %>
+            <%= hidden_field_tag 'component_name', 'nav_two' %>
+
+            <%= fields_for :form_fields do |f| %>
+                <% inputs = ["logo", "logo_name", "nav_menu", "cta"] %>
+                <% inputs.each do |i| %>
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f } %>   
+                <% end %>
+            <% end%>
+            <%= render "components/form_input/submit" %>
+        <% end %>
+        </div>
+        <div class="col-md-8">
+            <%= render partial: "nav_2", locals: { component: "nav_two" } %>
+        </div>
+    </div>

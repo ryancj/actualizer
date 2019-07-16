@@ -1,0 +1,83 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Actualizer</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+        <%= link_to example_path, class: "nav-link" do %>
+            Examples
+        <% end %>
+      </li>
+    <li class="nav-item">
+        <%= link_to previews_path, class: "nav-link" do %>
+            Preview
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to new_component_path(component: "navigation"), class: "nav-link" do %>
+            Navigation
+        <% end %>
+      </li>
+
+      <li class="nav-item">
+        <%= link_to new_component_path(component: "hero"), class: "nav-link" do %>
+            Hero
+        <% end %>
+      </li>
+
+      <li class="nav-item">
+        <%= link_to new_component_path(component: "clients"), class: "nav-link" do %>
+            Client
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to new_component_path(component: "contents"), class: "nav-link" do %>
+            Content
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to new_component_path(component: "services"), class: "nav-link" do %>
+            Service
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to new_component_path(component: "testimonials"), class: "nav-link" do %>
+            Testimonial
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to new_component_path(component: "closing"), class: "nav-link" do %>
+            Closing CTA
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to new_component_path(component: "footer"), class: "nav-link" do %>
+            Footer
+        <% end %>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+
+
+
+    <%#= render "navigation" %>
+
+    <%#= render "hero" %>
+
+    <%#= render "clients" %>
+
+    <%#= render "contents" %>
+
+    <%#= render "services" %>
+    
+    <%#= render "testimonials" %>
+
+    <%#= render "closing" %>
+
+    <%#= render "footer" %>

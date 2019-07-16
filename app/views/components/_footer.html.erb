@@ -1,0 +1,25 @@
+<h1>footer one</h1>
+<div class="row">
+    <div class="col-md-3">
+        <%= form_tag components_path do |f| %>
+            <%= hidden_field_tag 'component_name', 'footer_one' %>
+
+        <%= fields_for :form_fields do |f| %>
+        <% inputs = ['logo', 'column_one_header', 'column_one_lists', 'column_two_header', 'column_two_lists', 
+                     'column_three_header', 'column_three_lists', 'year', 'company_name', 'address', 'email', 'phone'] %>
+
+            <% inputs.each do |i| %>
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f } %>
+            <% end %>
+
+        <% end%>
+            <%= render "components/form_input/submit" %>
+        <% end %>
+
+    </div>
+    <div class="col-md-8">
+        <%= render partial: "footer_1", locals: { component: "footer_one" } %>
+    </div>
+</div>
+
+
