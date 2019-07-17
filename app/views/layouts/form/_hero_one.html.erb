@@ -1,0 +1,21 @@
+<h1>Hero one</h1>
+    <div class="row">
+        <div class="col-md-3">
+
+            <%= form_tag components_path do |f| %>
+                <%= hidden_field_tag 'component_name', 'hero_one' %>
+
+                <%= fields_for :form_fields do |f| %>
+                    <% inputs = ['header', 'sub_header', 'cta', 'background_image']%>
+                    <% inputs.each do |i| %>
+                        <%= render partial: "components/form_input/#{i}", locals: { f: f } %>   
+                    <% end %>
+             <% end %>
+            <%= render "components/form_input/submit" %>
+        <% end %>
+        
+        </div>
+        <div class="col-md-8">
+            <%= render partial: "hero_1", locals: { component: "hero_one" } %>
+        </div>
+    </div>

@@ -1,0 +1,22 @@
+<h1>services four</h1>
+<div class="row">
+    <div class="col-md-3">
+        <%= form_tag components_path do |f| %>
+            <%= hidden_field_tag 'component_name', 'services_four' %>
+
+        <%= fields_for :form_fields do |f| %>
+        <% inputs = ['header', 'service_one_header', 'service_one_content', 'service_two_header', 
+                    'service_two_content', 'service_three_header', 'service_three_content', 'cta'] %>
+
+            <% inputs.each do |i| %>
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f } %>
+            <% end %>
+        <% end%>
+            <%= render "components/form_input/submit" %>
+        <% end %>
+
+    </div>
+    <div class="col-md-8">
+        <%= render partial: "features_4", locals: { component: "services_four" } %>
+    </div>
+</div>

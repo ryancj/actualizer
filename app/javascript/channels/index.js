@@ -5,7 +5,14 @@ const channels = require.context('.', true, /_channel\.js$/)
 channels.keys().forEach(channels)
 
 
+
 $(document).ready(function () {
-    console.log("hello")
     $('#myTable').DataTable();
+
+
+
+
+
+
+
 });

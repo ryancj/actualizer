@@ -1,0 +1,21 @@
+<h1>Testi one</h1>
+<div class="row">
+    <div class="col-md-3">
+        <%= form_tag components_path do |f| %>
+            <%= hidden_field_tag 'component_name', 'testimonial_one' %>
+
+        <%= fields_for :form_fields do |f| %>
+        <% inputs = ['header', 'image_one', 'testimonial_one', 'testimonial_one_author'] %>
+
+            <% inputs.each do |i| %>
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f } %>
+            <% end %>
+        <% end%>
+            <%= render "components/form_input/submit" %>
+        <% end %>
+
+    </div>
+    <div class="col-md-8">
+        <%= render partial: "testi_1", locals: { component: "testimonial_one" } %>
+    </div>
+</div>

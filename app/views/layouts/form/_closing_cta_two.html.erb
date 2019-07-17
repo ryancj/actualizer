@@ -1,0 +1,21 @@
+<h1>closing two</h1>
+<div class="row">
+    <div class="col-md-3">
+        <%= form_tag components_path do |f| %>
+            <%= hidden_field_tag 'component_name', 'closing_cta_two' %>
+
+        <%= fields_for :form_fields do |f| %>
+        <% inputs = ['header', 'sub_header', 'cta', 'background_image'] %>
+
+            <% inputs.each do |i| %>
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f } %>
+            <% end %>
+        <% end%>
+            <%= render "components/form_input/submit" %>
+        <% end %>
+
+    </div>
+    <div class="col-md-8">
+        <%= render partial: "closing_2", locals: { component: "closing_cta_two" } %>
+    </div>
+</div>
