@@ -1,2 +1,2 @@
 <%= f.label "service_three_header"  %>
-<%= f.text_field "service_three_header" %>
+<%= f.text_field "service_three_header", { id: "#{component}-service-three-header-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>

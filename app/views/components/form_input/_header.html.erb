@@ -1,2 +1,3 @@
-<%= f.label "header"  %>
-<%= f.text_field "header" %>
+<%= f.label "header" %>
+<%= f.text_area "header", { id: "#{component}-header-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update load@window->preview#loadContent", class: "form-control" } %>
+

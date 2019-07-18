@@ -8,7 +8,7 @@
         <% inputs = ['header', 'author_image_one', 'testimonial_one', 'testimonial_one_author', 'author_image_two', 'testimonial_two', 'testimonial_two_author'] %>
 
             <% inputs.each do |i| %>
-                    <%= render partial: "components/form_input/#{i}", locals: { f: f } %>
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f, component: "testimonial-two" } %>
             <% end %>
         <% end%>
             <%= render "components/form_input/submit" %>

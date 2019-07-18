@@ -1,4 +1,3 @@
-<h1>services four</h1>
 <div class="row">
     <div class="col-md-3">
         <%= form_tag components_path do |f| %>
@@ -9,7 +8,7 @@
                     'service_two_content', 'service_three_header', 'service_three_content', 'cta'] %>
 
             <% inputs.each do |i| %>
-                    <%= render partial: "components/form_input/#{i}", locals: { f: f } %>
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f, component: "services-four" } %>
             <% end %>
         <% end%>
             <%= render "components/form_input/submit" %>
@@ -17,6 +16,10 @@
 
     </div>
     <div class="col-md-8">
-        <%= render partial: "features_4", locals: { component: "services_four" } %>
+        <% begin %>
+            <%= render partial: "features_4", locals: { component: "services_four" } %>
+        <% rescue %>
+            <%= render partial: "components/features_4", locals: { component: "services_four" } %>
+        <% end %>
     </div>
 </div>

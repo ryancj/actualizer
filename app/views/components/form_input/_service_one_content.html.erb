@@ -1,2 +1,2 @@
 <%= f.label "service_one_content" %>
-<%= f.text_field "service_one_content" %>
+<%= f.text_field "service_one_content", { id: "#{component}-service-one-content-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>

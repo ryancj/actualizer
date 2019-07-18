@@ -7,12 +7,12 @@ background-size: cover; position: relative; -webkit-background-size: cover; -moz
         <div class="closing-2-content">
           <div class="row">
             <div class="col-xl-9">
-              <h2><%= titleize_string(get_content("#{component}.header")) %></h2>
-              <p>
+              <h2 id="closing-cta-two-header"><%= titleize_string(get_content("#{component}.header")) %></h2>
+              <p id="closing-cta-two-sub-header">
                  <%= capitalize_string(get_content("#{component}.sub_header")) %>
               </p>
               <a href="#">
-                <button type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
+                <button id="closing-cta-two-cta" type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
               </a>
             </div>
           </div>

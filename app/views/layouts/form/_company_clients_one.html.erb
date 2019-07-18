@@ -10,7 +10,7 @@
         <% inputs = ['header', 'background_image', 'logo_one', 'logo_two', 'logo_three', 'logo_four', 'logo_five']%>
 
         <% inputs.each do |i| %>
-            <%= render partial: "components/form_input/#{i}", locals: { f: f } %>
+            <%= render partial: "components/form_input/#{i}", locals: { f: f, component: "company-clients-one" } %>
         <% end %>
 
         <% end%>

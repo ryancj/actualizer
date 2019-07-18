@@ -5,12 +5,12 @@ background-size: cover; position: relative; -webkit-background-size: cover; -moz
       <div class="col-xl-12">
 
         <div class="hero-1-content" data-controller="preview">
-          <h1 id="hero-header"><%= raw titleize_string(get_content("#{component}.header")) %></h1>
-          <p id="hero-subheader">
-            <%= simple_format(capitalize_string(get_content("#{component}.sub_header"))) %>
+          <h1 id="hero-one-header"><%= raw titleize_string(get_content("#{component}.header")) %></h1>
+          <p id="hero-one-sub-header">
+            <%= capitalize_string(get_content("#{component}.sub_header")) %>
           </p>
           <a href="#">
-            <button id="hero-cta" type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
+            <button id="hero-one-cta" type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
           </a>
         </div>
 

@@ -4,30 +4,30 @@
       <div class="col-xl-12">
 
         <div class="contents-1-content">
-          <h2>
+          <h2 id="content-one-header">
             <%= capitalize_string(get_content("#{component}.header")) %>
           </h2>
-          <p>
+          <p id="content-one-sub-header">
             <%= capitalize_string(get_content("#{component}.sub_header")) %>
           </p>
           <div class="row d-flex align-items-center">
             <div class="col-xl-4 col-lg-4 col-md-12 metric text-center">
-              <h3>
+              <h3 id="content-one-counter-one-value">
                 <%= get_content("#{component}.counter_one_value") %>
               </h3>
-              <h6><%= titleize_string(get_content("#{component}.counter_one_title")) %></h6>
+              <h6 id="content-one-counter-one-title"><%= titleize_string(get_content("#{component}.counter_one_title")) %></h6>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-12 metric text-center">
-              <h3>
+              <h3 id="content-one-counter-two-value">
                 <%= get_content("#{component}.counter_two_value") %>
               </h3>
-              <h6><%= titleize_string(get_content("#{component}.counter_two_title")) %></h6>
+              <h6 id="content-one-counter-two-title"><%= titleize_string(get_content("#{component}.counter_two_title")) %></h6>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-12 metric last text-center">
-              <h3>
+              <h3 id="content-one-counter-three-value">
                 <%= get_content("#{component}.counter_three_value") %>
               </h3>
-              <h6><%= titleize_string(get_content("#{component}.counter_three_title")) %></h6>
+              <h6 id="content-one-counter-three-title"><%= titleize_string(get_content("#{component}.counter_three_title")) %></h6>
             </div>
           </div>
         </div>

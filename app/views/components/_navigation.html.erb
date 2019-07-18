@@ -7,7 +7,7 @@
                 <%= fields_for :form_fields do |f| %>
                     <% inputs = ["logo", "logo_name", "nav_menu", "cta"] %>
                     <% inputs.each do |i| %>
-                        <%= render partial: "components/form_input/#{i}", locals: { f: f } %>   
+                        <%= render partial: "components/form_input/#{i}", locals: { f: f, component: "nav-one" } %>   
                     <% end %>
                 <% end%>
                 <%= render "components/form_input/submit" %>
@@ -28,7 +28,7 @@
             <%= fields_for :form_fields do |f| %>
                 <% inputs = ["logo", "logo_name", "nav_menu", "cta"] %>
                 <% inputs.each do |i| %>
-                    <%= render partial: "components/form_input/#{i}", locals: { f: f } %>   
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f, component: "nav-two" } %>   
                 <% end %>
             <% end%>
             <%= render "components/form_input/submit" %>

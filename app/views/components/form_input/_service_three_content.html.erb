@@ -1,2 +1,2 @@
 <%= f.label "service_three_content" %>
-<%= f.text_field "service_three_content" %>
+<%= f.text_field "service_three_content", { id: "#{component}-service-three-content-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>

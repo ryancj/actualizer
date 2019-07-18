@@ -1,2 +1,2 @@
 <%= f.label "cta"  %>
-<%= f.text_field "cta", class: "form-control" %>
+<%= f.text_field "cta", { id: "#{component}-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>

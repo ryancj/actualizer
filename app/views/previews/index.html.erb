@@ -22,124 +22,22 @@
     </div>
 
 
- <div class="row">
-    <div class="col-md-3">
+    <%= render "layouts/form/hero_one" %>
 
-    <%= form_tag "#", :"data-controller" => "preview" do %>
-        <%= label_tag "Header" %>
-        <%= text_area_tag "Header", nil, { id: "hero-header-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-        
-        <%= label_tag "sub_header" %>
-        <%= text_area_tag "sub_header", nil, { id: "hero-subheader-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
+    <%= render "layouts/form/content_one" %>
 
-        <%= label_tag "cta" %>
-        <%= text_field_tag "cta", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-    <% end %>
-    
+    <%= render "layouts/form/services_three" %>
 
+    <%= render "layouts/form/closing_cta_two" %>
+
+    <div class="row">
+        <div class="offset-md-3">
+
+        </div>
+        <div class="col-md-8">
+            <%= render partial: "components/footer_1", locals: { component: "footer_one" } %>
+        </div>
     </div>
-    <div class="col-md-8">
-        <%= render partial: "components/hero_1", locals: { component: "hero_one" } %>    
-    </div>
-    
- </div>
-
- <div class="row">
-    <div class="col-md-3">
-        <%= form_tag "#", :"data-controller" => "preview" do %>
-        <%= label_tag "test" %>
-        <%= text_area_tag "test", nil, { id: "hero-header-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-        
-        <%= label_tag "sub_header" %>
-        <%= text_area_tag "sub_header", nil, { id: "hero-subheader-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-
-        <%= label_tag "counter_one_title" %>
-        <%= text_field_tag "counter_one_title", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-
-        <%= label_tag "counter_one_value" %>
-        <%= text_field_tag "counter_one_value", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-
-        <%= label_tag "counter_two_title" %>
-        <%= text_field_tag "counter_two_title", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-
-        <%= label_tag "counter_two_value" %>
-        <%= text_field_tag "counter_two_value", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-
-        <%= label_tag "counter_three_title" %>
-        <%= text_field_tag "counter_two_title", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-
-        <%= label_tag "counter_three_value" %>
-        <%= text_field_tag "counter_two_value", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-        <% end %>
-    </div>
-    <div class="col-md-8">
-        <%= render partial: "components/contents_1", locals: { component: "content_one" } %>
-    </div>
- </div>
-
- <div class="row">
-    <div class="col-md-3">
-        <%= form_tag "#", :"data-controller" => "preview" do %>
-        <%= label_tag "test" %>
-        <%= text_area_tag "test", nil, { id: "hero-header-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-        
-        <%= label_tag "sub_header" %>
-        <%= text_area_tag "sub_header", nil, { id: "hero-subheader-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-
-        <%= label_tag "cta" %>
-        <%= text_field_tag "cta", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-        <% end %>
-    </div>
-    <div class="col-md-8">
-        <%= render partial: "components/features_3", locals: { component: "services_three" } %>
-    </div>
-</div>
-
- <div class="row">
-    <div class="col-md-3">
-        <%= form_tag "#", :"data-controller" => "preview" do %>
-        <%= label_tag "test" %>
-        <%= text_area_tag "test", nil, { id: "hero-header-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-        
-        <%= label_tag "sub_header" %>
-        <%= text_area_tag "sub_header", nil, { id: "hero-subheader-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-
-        <%= label_tag "cta" %>
-        <%= text_field_tag "cta", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-        <% end %>
-    </div>
-    <div class="col-md-8">
-        <%= render partial: "components/closing_2", locals: { component: "closing_cta_two" } %>
-    </div>
-</div>
-
- <div class="row">
-    <div class="col-md-3">
-        <%= form_tag "#", :"data-controller" => "preview" do %>
-        <%= label_tag "test" %>
-        <%= text_area_tag "test", nil, { id: "hero-header-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-        
-        <%= label_tag "sub_header" %>
-        <%= text_area_tag "sub_header", nil, { id: "hero-subheader-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-
-        <%= label_tag "cta" %>
-        <%= text_field_tag "cta", nil, { id: "hero-cta-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
-        <% end %>
-    </div>
-    <div class="col-md-8">
-        <%= render partial: "components/footer_1", locals: { component: "footer_one" } %>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
 
 
 </div>

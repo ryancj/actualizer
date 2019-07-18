@@ -1,2 +1,2 @@
 <%= f.label "sub_header"  %>
-<%= f.text_field "sub_header" %>
+<%= f.text_field "sub_header", { id: "#{component}-sub-header-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>
