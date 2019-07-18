@@ -1,2 +1,2 @@
-<%= f.label "counter_one_value"  %>
-<%= f.number_field "counter_one_value" %>
+<%= f.label "counter_one_value" %>
+<%= f.number_field "counter_one_value", { id: "#{component}-counter-one-value-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" }  %>

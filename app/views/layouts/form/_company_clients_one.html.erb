@@ -1,0 +1,24 @@
+<h1>Client one</h1>
+
+<div class="row">
+    <div class="col-md-3">
+        <%= form_tag components_path do |f| %>
+        <%= hidden_field_tag 'component_name', 'company_clients_one' %>
+
+        <%= fields_for :form_fields do |f| %>
+
+        <% inputs = ['header', 'background_image', 'logo_one', 'logo_two', 'logo_three', 'logo_four', 'logo_five']%>
+
+        <% inputs.each do |i| %>
+            <%= render partial: "components/form_input/#{i}", locals: { f: f, component: "company-clients-one" } %>
+        <% end %>
+
+        <% end%>
+            <%= render "components/form_input/submit" %>
+        <% end %>
+
+    </div>
+    <div class="col-md-8">
+        <%= render partial: "clients_1", locals: { component: "company_clients_one" } %>
+    </div>
+</div>

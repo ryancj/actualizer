@@ -1,2 +1,2 @@
 <%= f.label "counter_three_value" %>
-<%= f.number_field "counter_three_value" %>
+<%= f.number_field "counter_three_value", { id: "#{component}-counter-three-value-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>

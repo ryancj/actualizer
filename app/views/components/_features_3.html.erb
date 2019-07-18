@@ -4,7 +4,7 @@
       <div class="col-xl-12">
 
         <div class="features-3-content">
-          <h2>
+          <h2 id="services-three-header">
             <%= titleize_string(get_content("#{component}.header")) %>
           </h2>
           <div class="row d-flex align-items-center">
@@ -13,28 +13,28 @@
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4">
               <div class="feature top">
-                <h6><%= titleize_string(get_content("#{component}.service_one_header")) %></h6>
-                <p>
+                <h6 id="services-three-service-one-header"><%= titleize_string(get_content("#{component}.service_one_header")) %></h6>
+                <p id="services-three-service-one-content">
                   <%= capitalize_string(get_content("#{component}.service_one_content")) %>
                 </p>
               </div>
               <div class="feature">
-                <h6><%= titleize_string(get_content("#{component}.service_two_header")) %></h6>
-                <p>
+                <h6 id="services-three-service-two-header"><%= titleize_string(get_content("#{component}.service_two_header")) %></h6>
+                <p id="services-three-service-two-content">
                   <%= capitalize_string(get_content("#{component}.service_two_content")) %>
                 </p>
               </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4">
               <div class="feature top">
-                <h6><%= titleize_string(get_content("#{component}.service_three_header")) %></h6>
-                <p>
+                <h6 id="services-three-service-three-header"><%= titleize_string(get_content("#{component}.service_three_header")) %></h6>
+                <p id="services-three-service-three-content">
                   <%= capitalize_string(get_content("#{component}.service_three_content")) %>
                 </p>
               </div>
               <div class="feature last">
-                <h6><%= titleize_string(get_content("#{component}.service_four_header")) %></h6>
-                <p>
+                <h6 id="services-three-service-four-header"><%= titleize_string(get_content("#{component}.service_four_header")) %></h6>
+                <p id="services-three-service-four-content">
                   <%= capitalize_string(get_content("#{component}.service_four_content")) %>
                 </p>
               </div>

@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-3">
+
+        <%= form_tag components_path, :"data-controller" => "preview" do |f| %>
+            <%= hidden_field_tag 'component_name', 'hero_one' %>
+
+            <%= fields_for :form_fields do |f| %>
+                <% inputs = ['header', 'sub_header', 'cta', 'background_image']%>
+                <% inputs.each do |i| %>
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f, component: "hero-one" } %>   
+                <% end %>
+            <% end %>
+        <%= render "components/form_input/submit" %>
+    <% end %>
+    
+    </div>
+    <div class="col-md-8">
+    <% begin %>
+        <%= render partial: "hero_1", locals: { component: "hero_one" } %>
+    <% rescue %>
+        <%= render partial: "components/hero_1", locals: { component: "hero_one" } %>
+    <% end %>
+    </div>
+</div>

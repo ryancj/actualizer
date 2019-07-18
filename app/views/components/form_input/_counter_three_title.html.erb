@@ -1,2 +1,2 @@
 <%= f.label "counter_three_title" %>
-<%= f.text_field "counter_three_title" %>
+<%= f.text_field "counter_three_title", { id: "#{component}-counter-three-title-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update", class: "form-control" } %>

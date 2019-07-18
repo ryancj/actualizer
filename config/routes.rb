@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   resources :components
   resources :previews, only: [:index] 
+  resources :images
   get "/test" => "static#test"
   get '/show' => "static#show"
   get "/example" => "static#index"

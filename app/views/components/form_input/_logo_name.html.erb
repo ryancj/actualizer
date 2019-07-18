@@ -1,2 +1,2 @@
 <%= f.label "logo_name"  %>
-<%= f.text_field "logo_name", class: "form-control" %><Br>
+<%= f.text_field "logo_name", { id: "#{component}-logo-name-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update load@window->preview#loadContent", class: "form-control" } %><Br>
