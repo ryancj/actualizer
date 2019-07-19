@@ -6,65 +6,57 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-    <li class="nav-item">
-        <%= link_to example_path, class: "nav-link" do %>
-            Examples
-        <% end %>
-      </li>
-    <li class="nav-item">
-        <%= link_to previews_path, class: "nav-link" do %>
-            Preview
-        <% end %>
+    
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Home Page
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <%= link_to new_component_path(component: "hero"), class: "dropdown-item" do %>
+            Hero
+          <% end %>
+          <%= link_to new_component_path(component: "clients"), class: "dropdown-item" do %>
+            Client
+          <% end %>
+          <%= link_to new_component_path(component: "services"), class: "dropdown-item" do %>
+            Service
+          <% end %>
+          <%= link_to new_component_path(component: "testimonials"), class: "dropdown-item" do %>
+            Testimonial
+          <% end %>
+          <%= link_to new_component_path(component: "closing"), class: "dropdown-item" do %>
+            Closing CTA
+          <% end %>
+        </div>
       </li>
       <li class="nav-item">
-        <%= link_to new_component_path(component: "navigation"), class: "nav-link" do %>
+        <%= link_to new_component_path(component: "navigation"), class: "nav-link #{active_link(new_component_path(component: "navigation"))}" do %>
             Navigation
         <% end %>
       </li>
 
       <li class="nav-item">
-        <%= link_to new_component_path(component: "hero"), class: "nav-link" do %>
-            Hero
-        <% end %>
-      </li>
-
-      <li class="nav-item">
-        <%= link_to new_component_path(component: "clients"), class: "nav-link" do %>
-            Client
-        <% end %>
-      </li>
-      <li class="nav-item">
-        <%= link_to new_component_path(component: "contents"), class: "nav-link" do %>
-            Content
-        <% end %>
-      </li>
-      <li class="nav-item">
-        <%= link_to new_component_path(component: "services"), class: "nav-link" do %>
-            Service
-        <% end %>
-      </li>
-      <li class="nav-item">
-        <%= link_to new_component_path(component: "testimonials"), class: "nav-link" do %>
-            Testimonial
-        <% end %>
-      </li>
-      <li class="nav-item">
-        <%= link_to new_component_path(component: "closing"), class: "nav-link" do %>
-            Closing CTA
-        <% end %>
-      </li>
-      <li class="nav-item">
-        <%= link_to new_component_path(component: "footer"), class: "nav-link" do %>
+        <%= link_to new_component_path(component: "footer"), class: "nav-link #{active_link(new_component_path(component: "footer"))}" do %>
             Footer
         <% end %>
       </li>
       <li class="nav-item">
-        <%= link_to images_path, class: "nav-link" do %>
+        <%= link_to example_path, class: "nav-link #{active_link(example_path)}" do %>
+            Examples 
+        <% end %>
+      </li>
+      <li class="nav-item">
+        <%= link_to images_path, class: "nav-link #{active_link(images_path)}", data: { turbolinks: false } do %>
             Image Library 
         <% end %>
       </li>
     </ul>
-    
+
+    <%= link_to previews_path, class: "nav-link #{active_link(previews_path)} btn btn-primary" do %>
+            Preview
+    <% end %>
+
   </div>
 </nav>
 

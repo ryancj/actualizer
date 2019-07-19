@@ -6,7 +6,7 @@
 
         <%= fields_for :form_fields do |f| %>
         <% inputs = ['logo', 'column_one_header', 'column_one_lists', 'column_two_header', 'column_two_lists', 
-                     'column_three_header', 'column_three_lists', 'year', 'company_name', 'address', 'email', 'phone'] %>
+                     'column_three_header', 'column_three_lists', 'year', 'company_name', 'address', 'email', 'phone', "store_hour"] %>
 
             <% inputs.each do |i| %>
                     <%= render partial: "components/form_input/#{i}", locals: { f: f } %>

@@ -1,2 +1,4 @@
-<%= f.label "background_image"  %>
-<%= f.file_field "background_image" %>
+<% if !current_page?(previews_path) %>
+    <%= f.label "background_image" %>
+    <%= f.file_field "background_image"%>
+<% end %>

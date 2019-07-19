@@ -25,12 +25,14 @@
                 <div class="col-xl-6 col-lg-6 col-4 footer-info">
                   <p>Mon - Fri</p>
                   <p>Saturday</p>
-                  <p>Sunday & Holidays</p>
+                  <p>Sunday</p>
+                  <p>Holidays</p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-8 footer-info">
-                  <p class="value">9am - 5pm</p>
-                  <p class="value">12am - 5pm</p>
-                  <p class="value">CLOSED</p>
+                  <p class="value"><%= get_content("#{component}.mon_to_fri").split(", ")[0] %>am - <%= get_content("#{component}.mon_to_fri").split(", ")[1] %>pm</p>
+                  <p class="value"><%= get_content("#{component}.saturday").split(", ")[0] %>am - <%= get_content("#{component}.saturday").split(", ")[1] %>pm</p>
+                  <p class="value"><%= get_content("#{component}.sunday").split(", ")[0] %>am - <%= get_content("#{component}.sunday").split(", ")[1] %>pm</p>
+                  <p class="value"><%= get_content("#{component}.holiday").split(", ")[0] %>am - <%= get_content("#{component}.holiday").split(", ")[1] %>pm</p>
                 </div>
               </div>
 

@@ -20,4 +20,8 @@ module ApplicationHelper
         string.capitalize
     end
 
+    def active_link(resource)
+        current_page?(resource) ? "active" : ""
+    end
+
 end

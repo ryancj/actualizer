@@ -1,2 +1,4 @@
-<%= f.label "image" %>
-<%= f.file_field "image" %>
+<% if !current_page?(previews_path) %>
+    <%= f.label "image" %>
+    <%= f.file_field "image" %>
+<% end %>
