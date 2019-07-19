@@ -1,0 +1,56 @@
+<div class="fixed-top">
+
+<div class="top-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-12 top-nav-hours">
+        <i class="fa fa-clock-o top-nav-icon" aria-hidden="true"></i>
+        Our Hours: Mon - Fri, 9AM - 5PM
+      </div>
+      <div class="col-xl-8 col-lg-8 col-md-12 top-nav-contacts">
+        <span class="top-nav-contact">
+          <i class="fa fa-phone top-nav-icon" aria-hidden="true"></i>
+          604.688.8318
+        </span>
+        <span class="top-nav-contact">
+          <i class="fa fa-map-marker top-nav-icon" aria-hidden="true"></i>
+          Vancouver, B.C. V6Z 1S4
+        </span>
+        <span class="top-nav-contact">
+          <i class="fa fa-envelope top-nav-icon" aria-hidden="true"></i>
+          contactus@lowandco.ca
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a href="/" class="text-decoration-none">
+      <div class="d-flex align-items-center">
+        <img src="https://actualizer.s3.amazonaws.com/stock/low-brand-emblem.svg" class="low-brand-img">
+        <div class="low-brand">
+          <h4>Alan J. W. Low Inc.</h4>
+          <span>Chartered Accountants</span>
+        </div>
+      </div>
+
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMobile">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link <%= current_page?(root_path) ? 'active' : '' %>" href="/">Home</a>
+        <a class="nav-item nav-link <%= action_name == 'services' ? 'active' : '' %>" href="/services">Our Services</a>
+        <a class="nav-item nav-link <%= action_name == 'team' ? 'active' : '' %>" href="/team">Our Team</a>
+        <a class="nav-item nav-link <%= action_name == 'contact' ? 'active' : '' %>" href="/contact">Contact Us</a>
+        <a href="/contact">
+          <button type="button" class="btn btn-primary nav-cta">Contact Us</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+</div>

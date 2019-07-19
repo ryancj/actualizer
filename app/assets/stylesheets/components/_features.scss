@@ -206,3 +206,45 @@
     }
   }
 }
+
+// Features 5 Specific
+.features-5 {
+  background: #FFF;
+}
+.features-5-content {
+  h2 {
+    color: $brand-primary;
+    margin-bottom: 3rem;
+    line-height: 1.63;
+  }
+  h6 {
+    margin-bottom: 0.7rem;
+  }
+  p {
+    color: #7e8085;
+    font-weight: 300;
+    line-height: 1.63;
+    margin-bottom: 0;
+  }
+  .feature.top {
+    margin-bottom: 3rem;
+  }
+}
+@media(max-width: 991px) {
+  .features-5 {
+    padding: 2rem 0;
+  }
+  .features-5-content {
+    h2 {
+      font-size: 36px;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+    }
+    .feature.top, .feature {
+      margin-bottom: 2rem;
+    }
+    .feature.last {
+      margin-bottom: 0;
+    }
+  }
+}

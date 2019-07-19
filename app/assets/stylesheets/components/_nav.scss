@@ -1,5 +1,36 @@
 @import '../global_variables';
 
+// Top Nav
+.top-nav {
+  background: #4A5C5B;
+  color: #FFF;
+  padding: 0.5rem;
+}
+.top-nav-icon {
+  display: inline-block;
+  color: $brand-primary;
+  margin-right: 0.2rem;
+}
+.top-nav-hours {
+  text-align: left;
+}
+.top-nav-contacts {
+  text-align: right
+}
+.top-nav-contact {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.top-nav-contact:last-child {
+  margin-right: 0;
+}
+
+@media(max-width: 991px) {
+  .top-nav-hours, .top-nav-contacts {
+    text-align: center;
+  }
+}
+
 // Container
 .navbar {
   min-height: 100px;
@@ -23,7 +54,7 @@
 // Brand Text Fallback
 .brand-text {
   color: $brand-primary;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0;
   text-decoration: none;
 }
@@ -35,7 +66,6 @@
   padding-top: $nav-link-padding-top;
 }
 
-// Responsiveness
 @media(max-width: 991px) {
   .navbar {
     padding-top: 1.5rem;

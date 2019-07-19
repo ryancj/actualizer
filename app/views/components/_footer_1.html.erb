@@ -56,7 +56,7 @@
               <h6><%= titleize_string(get_content("#{component}.column_three_header")) %></h6>
               <p>
                  <% get_content("#{component}.column_three_lists").split(",").each do |l| %>
-                  <a href="#"><%= capitalize_string(l) %></a>
+                  <a href="#"><%= l %></a>
                 <% end %>
               </p>
             </div>
