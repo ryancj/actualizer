@@ -18,16 +18,18 @@ export default class extends Controller {
         })
      }
 
-     loadContent(e) {
-         
-     }
+     loadContent() {
 
+        var array = this.nameTargets
 
+        array.forEach(function(element) {
+            var x = element.id.split("-input")[0]
+            var y = element.id
+            var content = document.getElementById(x).innerHTML
+            document.getElementById(y).value = content
 
-
-
-
-
+           }) 
+        }
 
 
 
