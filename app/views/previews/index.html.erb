@@ -9,23 +9,31 @@
 <%#= render partial: "closing_1", locals: { component: "closing_cta_one" } %>
 <%#= render partial: "footer_1", locals: { component: "footer_one" } %>
 
+<!-- Home -->
+<%# New Component %>
+<%#= render partial: "hero_2", locals: { component: "hero_two" } %>
+<%#= render partial: "contents_2", locals: { component: "content_two" } %>
+<%# New Component %>
+<%#= render "static/features_5" %>
+<%#= render partial: "closing_1", locals: { component: "closing_cta_two" } %>
+<%#= render partial: "footer_1", locals: { component: "footer_one" } %>
+
+
 <%# Finance %>
 
 <div class="container-fluid">
     <div class="row">
         <div class="offset-md-3 col-md-8">
-            <%= render partial: "components/nav_1", locals: { component: "nav_one" } %>
+            <%= render "static/nav_5" %>
         </div>
     </div>
 
-
-    <%= render "layouts/form/hero_one" %>
-
-    <%= render "layouts/form/content_one" %>
-
-    <%= render "layouts/form/services_three" %>
-
+    <%= render "layouts/form/hero_two" %>
+    <%= render "layouts/form/content_two" %>
+    <%= render "static/features_5" %>
     <%= render "layouts/form/closing_cta_two" %>
+
+    <%#= render "layouts/form/services_three" %>
 
     <div class="row">
         <div class="offset-md-3">
