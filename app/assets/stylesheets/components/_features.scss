@@ -246,5 +246,15 @@
     .feature.last {
       margin-bottom: 0;
     }
+    .view-more {
+      margin-top: 1.5rem !important;
+    }
+  }
+}
+@media(max-width: 768px) {
+  .features-5-content {
+    .feature.last {
+      margin-top: 2rem;
+    }
   }
 }
