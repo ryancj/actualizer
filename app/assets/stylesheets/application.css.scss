@@ -20,6 +20,17 @@
 
 // This app only styling
 body {
+  padding-top: $body-padding-top;
   font-family: $brand-font;
   background: #e8edef;
+}
+
+// Un-fix Nav when mobile
+@media(max-width: 991px) {
+  .fixed-top {
+    position: static;
+  }
+  body {
+    padding-top: 0;
+  }
 }

@@ -1,0 +1,36 @@
+@import 'global_variables';
+
+// Custom CSS for this Client
+
+.low-brand {
+  margin-left: 0.7rem;
+
+  h4 {
+    color: #4A5C5B;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  span {
+    // color: $brand-primary;
+    color: #4A5C5B;
+    font-weight: 400;
+  }
+}
+
+.low-brand-img {
+  height: 50px;
+}
+
+@media(max-width: 400px) {
+  .low-brand {
+    h4 {
+      font-size: 20px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+  .low-brand-img {
+    height: 45px;
+  }
+}

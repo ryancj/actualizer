@@ -98,6 +98,9 @@
     }
   }
 }
+.contents-2-img-container {
+  text-align: right;
+}
 @media(max-width: 991px) {
   .contents-2 {
     padding: 2rem 0;
@@ -110,5 +113,8 @@
     .contents-2-image {
       margin-top: 2rem;
     }
+  }
+  .contents-2-img-container {
+    text-align: center;
   }
 }

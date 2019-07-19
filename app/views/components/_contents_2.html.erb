@@ -7,7 +7,7 @@
           <div class="row d-flex align-items-center">
             <div class="col-xl-6 col-lg-8 col-md-12">
               <h2>
-                <%= capitalize_string(get_content("#{component}.header")) %>
+                <%= get_content("#{component}.header") %>
               </h2>
               <p>
                 <%= capitalize_string(get_content("#{component}.sub_header")) %>
@@ -22,8 +22,8 @@
                 <i class="fa fa-check" aria-hidden="true"></i><span><%= capitalize_string(get_content("#{component}.feature_three")) %></span>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-4 col-md-12 text-center">
-              <%= image_tag get_content("#{component}.image"), class: "img-fluid contents-2-image" %>       
+            <div class="col-xl-6 col-lg-4 col-md-12 contents-2-img-container">
+              <%= image_tag get_content("#{component}.image"), class: "img-fluid contents-2-image" %>
             </div>
           </div>
         </div>
