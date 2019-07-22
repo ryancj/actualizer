@@ -53,7 +53,7 @@
       </li>
     </ul>
 
-    <%= link_to previews_path, class: "nav-link #{active_link(previews_path)} btn btn-primary" do %>
+    <%= link_to previews_path, class: "nav-link #{active_link(previews_path)} btn btn-primary", data: { turbolinks: false } do %>
             Preview
     <% end %>
 

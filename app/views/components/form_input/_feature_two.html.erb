@@ -1,2 +1,2 @@
 <%= f.label "feature_two" %>
-<%= f.text_field "feature_two" %>
+<%= f.text_field "feature_two", { id: "#{component}-feature-two-input", :"data-target" => "preview.name", :"data-action" => "keyup->preview#update load@window->preview#loadContent", class: "form-control" } %>

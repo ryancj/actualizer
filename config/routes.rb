@@ -6,7 +6,14 @@ Rails.application.routes.draw do
   get "/contact" => "components#contact"
 
   resources :components
-  resources :previews, only: [:index] 
+  resources :previews, only: [:index] do
+    collection do
+      get '/our-services' => "previews#services"
+      get '/our-team' => "previews#team"
+      get '/contact-us' => "previews#contact"
+    end
+  end
+
   resources :images
   get "/test" => "static#test"
   get '/show' => "static#show"

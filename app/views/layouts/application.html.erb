@@ -20,7 +20,7 @@
   </head>
 
   <body>
-  <%= render 'layouts/navbar' %>
+  <%= render 'layouts/navbar' if !request.url.include?("previews") %>
     <%= yield %>
   </body>
 </html>

@@ -25,7 +25,8 @@ export default class extends Controller {
         array.forEach(function(element) {
             var x = element.id.split("-input")[0]
             var y = element.id
-            var content = document.getElementById(x).innerHTML
+            var content = document.getElementById(x).innerHTML.replace(/^\s+|\s+$/g, '');
+
             document.getElementById(y).value = content
 
            }) 

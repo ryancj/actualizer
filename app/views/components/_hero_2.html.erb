@@ -8,13 +8,13 @@ background-size: cover; position: relative; -webkit-background-size: cover; -moz
         <div class="hero-2-content">
           <div class="row">
             <div class="col-xl-10">
-              <h1><%= titleize_string(get_content("#{component}.header")) %></h1>
-              <p>
+              <h1 id="hero-two-header"><%= titleize_string(get_content("#{component}.header")) %></h1>
+              <p id="hero-two-sub-header">
                 <%# No need to Captalize %>
                 <%= get_content("#{component}.sub_header") %>
               </p>
               <a href="#">
-                <button type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
+                <button id="hero-two-cta" type="button" class="btn btn-primary"><%= get_content("#{component}.cta") %></button>
               </a>
             </div>
           </div>

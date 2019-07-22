@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-md-3">
+        <%= form_tag components_path, :"data-controller" => "preview" do |f| %>
+            <%= hidden_field_tag 'component_name', 'services_five' %>
+
+        <%= fields_for :form_fields do |f| %>
+        <% inputs = ['header', 'service_one_header', 'service_one_content', 'service_two_header', 
+                    'service_two_content', 'service_three_header', 'service_three_content', 'service_four_header', 'service_four_content', 'cta'] %>
+
+            <% inputs.each do |i| %>
+                    <%= render partial: "components/form_input/#{i}", locals: { f: f, component: "services-five" } %>
+            <% end %>
+        <% end%>
+            <%= render "components/form_input/submit" %>
+        <% end %>
+
+    </div>
+    <div class="col-md-8">
+        <% begin %>
+            <%= render partial: "features_5", locals: { component: "services_five" } %>
+        <% rescue %>
+            <%= render partial: "components/services_five", locals: { component: "services_five" } %>
+        <% end %>
+    </div>
+</div>
