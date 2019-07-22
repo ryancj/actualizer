@@ -27,7 +27,8 @@ class ComponentsController < ApplicationController
         file.puts hash.to_yaml
         file.close
 
-        redirect_to previews_path
+        # redirect_to previews_path
+        render "previews/index"
     end
 
 
